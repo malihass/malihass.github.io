@@ -1,8 +1,5 @@
 # main links links
 main:
-  - title: "Publications"
-    url: /publications/
-
   - title: "Scientific Machine Learning"
     url: /sciml/
         
