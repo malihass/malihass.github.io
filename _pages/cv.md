@@ -11,49 +11,24 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* Ph.D in Aerospace Engineering, University of Michigan, 2019
+* M.S.E in Aerospace Engineering, University of Texas at Austin, 2015
+* M.S.E in General Engineering, Ecole Centrale de Lille, 2015
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 2019-present: Researcher at National Renewable Energy Laboratory (NREL)
+  * Surface chemistry modeling
+  * Optimization of deposition reactors for III-V materials manufacturing 
+  * Data reduction of very large datasets
+  * Generative models for atmospheric flow prediction
+  * Uncertainty quantification in data driven models
+  * Machine learning for rare event probability estimation
+  * ML-based Lithium-ion battery degradation modeling
+  * Analytically reduced chemistry for high-performance computing (HPC)
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* 2012-2013: Physics modeling intern at Maia Eolis (now Engie Green)
+  * CFD Modeling of wind turbine blades
 
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* 2012: Software engineering intern at RTE (France's power grid)
+  * Encoding of UML models into large scale simulation code 
