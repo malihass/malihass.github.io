@@ -3,20 +3,14 @@ main:
   - title: "Publications"
     url: /publications/
 
-  - title: "Talks"
-    url: /talks/    
-
-  - title: "Teaching"
-    url: /teaching/    
-    
-  - title: "Portfolio"
-    url: /portfolio/
+  - title: "Scientific Machine Learning"
+    url: /sciml/
         
-  - title: "Blog Posts"
-    url: /year-archive/
-    
+  - title: "Complex flow modeling"
+    url: /cfm/
+
+  - title: "Uncertainty Quantification"
+    url: /uq/
+
   - title: "CV"
     url: /cv/
-    
-  - title: "Guide"
-    url: /markdown/
