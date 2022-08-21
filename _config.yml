@@ -83,12 +83,11 @@ author:
   name             : "Malik Hassanaly"
   avatar           : "profile.png"
   bio              : "Researcher at NREL, Scientific Machine Learning, Turbulent Combustion Modeling, Computational Fluid Dynamics, Uncertainty Quantification"
-  location         : "Golden, Colorado"
+  location         : "Colorado"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=hYX902wAAAAJ&hl=en"
   email            :
-  researchgate     : "https://www.researchgate.net/profile/Malik-Hassanaly"
   uri              :
   bitbucket        :
   codepen          :
@@ -105,6 +104,7 @@ author:
   linkedin         :
   orcid            : "http://orcid.org/0000-0002-0425-9090"
   pinterest        :
+  researchgate     : "https://www.researchgate.net/profile/Malik-Hassanaly"
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
