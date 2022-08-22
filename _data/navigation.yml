@@ -1,13 +1,4 @@
 # main links links
 main:
-  - title: "Scientific Machine Learning"
-    url: /sciml/
-        
-  - title: "Complex flow modeling"
-    url: /cfm/
-
-  - title: "Uncertainty Quantification"
-    url: /uq/
-
   - title: "CV"
     url: /cv/
