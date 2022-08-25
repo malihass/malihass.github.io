@@ -10,7 +10,7 @@ redirect_from:
 
 I am a researcher at National Renewable Energy Laboratory (NREL) and earned my Ph.D. from the University of Michigan in Aerospace Engineering. 
 
-My work revolves around ccientific machine learning, the simulation of complex fluid flows with high-performance computing, and uncertainty quantification. I develop methods tailored for renewable energy applications such as atmospheric flows, batteries, deposition reactors, and efficient engines. 
+My work revolves around scientific machine learning, the simulation of complex fluid flows with high-performance computing, and uncertainty quantification. I develop methods tailored for renewable energy applications such as atmospheric flows, batteries, deposition reactors, and efficient engines. 
 
 Scientific Machine Learning (SciML)
 ======
