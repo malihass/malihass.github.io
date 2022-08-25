@@ -2,12 +2,11 @@
 main:
   - title: "Scientific Machine Learning"
     url: /sciml/
-        
   - title: "Complex flow modeling"
     url: /cfm/
-
   - title: "Uncertainty Quantification"
     url: /uq/
-
+  - title: "Publications"
+    url: /publications/
   - title: "CV"
     url: /cv/
