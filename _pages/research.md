@@ -26,7 +26,9 @@ Generative models can be useful for manipulating high-dimensional probability de
 
 Since samples generated with GANs are typically high quality, they can be amenable to forward simulations that can assist uncertainty quantification tasks that use ensembles of forward simulations (typical in atmospheric modeling). When estimating rare-event probability, the sampling strategy can be critical and can benefit from a well-informed generative procedure.
 
-PLOTS
+<p align="center">
+<img src="/images/ganisp.png" width="750" height="250"/>
+</p>
 
 Internally, some generative models directly learn the PDF that is being manipulated. Crucially, they work well in high dimensions. The PDF estimate can be used for various scientific tasks. For instance, I use them to curate datasets and transform inhomogeneously distributed data into a uniform-in-phase-space dataset.
 
@@ -70,7 +72,7 @@ Reacting flows modeling is a challenging computational problem that require effi
 
 <p align="center">
 <img src="/images/soot.png" width="375" height="125"/> 
-<img src="/images/cvd.png" width="375" height="125"/> 
+<img src="/images/cvd.png" width="250" height="83.3"/> 
 </p>
 
 ### Related work:
@@ -83,14 +85,14 @@ Reacting flows modeling is a challenging computational problem that require effi
 No matter how accurate are physics models, they intimately interact with numerical solvers which can introduce larger errors than the physics-modeling approach. For instance, numerical discretization may introduce dissipation that outweighs the effect of turbulence models. I have developed a solver that minimize the amount of numerical dissipation of variable density low-Mach solvers in OpenFoam. 
 
 <p align="center">
-<img src="/images/dissipation.png" width="750" height="250"/> 
+<img src="/images/dissipation.png" width="375" height="125"/> 
 </p>
 
 In turn, numerical solvers also depend on the computing architecture on which they are deployed. With the rise of GPU/CPU computing architectures, writing efficient code requires appropriate memory management. I have developed an approach where numerical chemistry Jacobian can be symbolically encoded, allowing to control the common subexpressions precomputations. A tradeoff between memory and computational intensity can be done that way. The approach has been deployed on Exascale machines.
 
 ### Related work
 1. M. Hassanaly, H. Koo, C. F. Lietz, S. T. Chong, V. Raman, "A minimally-dissipative low-Mach number solver for complex reacting flows in OpenFOAM" in **Computer and Fluids**, 2018. [\[PDF\]](https://arxiv.org/pdf/1705.04777.pdf).
-2. [\[Documentation\]](https://amrex-combustion.github.io/PelePhysics/QSS.html) on common-subexpression precomputations
+2. [\[Documentation\]](https://amrex-combustion.github.io/PelePhysics/QSS.html) on common-subexpression precomputations, and symbolic chemical Jacobian.
 
 
 <h2><a id="uq">Uncertainty quantification (UQ)</a></h2>
@@ -104,7 +106,7 @@ Inverse Bayesian parametric inference can allow objective system identification 
 ## *Rare event probability estimation*
 Efficiently estimating rare event probability requires artificially increasing the number of rare events observed. I develop methods for encouraging the occurrence of rare events in physics simulations.
 <p align="center">
-<img src="/images/gams.jpg" width="750" height="250"/>
+<img src="/images/gams.png" width="750" height="250"/>
 </p>
 
 
