@@ -57,10 +57,9 @@ IGN MODE + GRAPH Shivam
 <h2><a id="cfm">Complex fluid flows and High-Performance Computing (HPC)</a></h2>
 
 ## *Reacting flows*
+Reacting flows modeling is a challenging computational problem that require efficiently modeling microscopic scale phenomena that influence macroscopic scales, without resolving the entire range of scales. I work on population-balance equations for modeling of soot particles. Additionally, reacting flows require resolving stiff systems of ODE that can accurately model complex chemistry. However, chemiscal composition usually spans a reduced part of composition space. It is therefore possible to represent the chemistry on low-dimensional manifold that can represent the dynamics of the chemistry at a reduced computational cost. I help develop this approach for modeling turbulent ignition of jet fuels. Alternatively, surrogate reduced chemistry models can be developed to replace detailed chemisty approaches. I develop such a strategy for surface chemistry models in deposition reactors. 
 
-- Ignition model
-- Soot modeling
-- Surface chemistry
+Soot picture, deposition reactor 
 
 ### Related publications:
 1. M. Hassanaly, H. Sitaraman, K. L. Schulte, A. J. Ptak, J. Simon, K. Udwary, J. H. Leach, H. Splawn, "Surface chemistry models for GaAs epitaxial growth and hydride cracking using reacting flow simulations" in **Journal of Applied Physics**, 2021. [Paper](https://arxiv.org/pdf/2109.11540)
