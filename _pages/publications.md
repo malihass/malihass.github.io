@@ -3,12 +3,16 @@ layout: archive
 title: "Publications"
 permalink: /publications/
 author_profile: true
+redirect_from: 
+  - "/Publications"
+  - "/publications"
+  - "/Publications.html"
+  - "/publications.html"
 ---
 
 {% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
-
 
 <h2><i>Journal Articles</i></h2>
 {% for post in site.publications reversed %}
