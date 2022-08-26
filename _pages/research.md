@@ -35,19 +35,23 @@ GRAPHICAL abstract
 1. M. Hassanaly, A. Glaws, K. Stengel, R. N. King, "Adversarial sampling of unknown and high-dimensional conditional distributions" in **Journal of Computational Physics**, 2022. [Paper](https://arxiv.org/pdf/2111.05962.pdf), [Code](https://github.com/NREL/diversity_SR)
 2. M. Hassanaly, A. Glaws, R. N. King, "GANISP: a GAN-assisted Importance SPlitting Probability Estimator" in **AAAI-ADAM**, 2022. [Paper](https://arxiv.org/pdf/2112.15444.pdf), [Code](https://github.com/NREL/GANISP)
 3. M. Hassanaly, B. Perry, M. E. Mueller, S. Yellapantula, "Uniform-in-Phase-Space Data Selection with Iterative Normalizing Flows", **Under Review**, 2022. [Paper](https://arxiv.org/pdf/2112.15446), [Code](https://github.com/NREL/Phase-space-sampling)
+4. S. Barwey, M. Hassanaly, V. Raman, A. Steinberg, "Using Machine Learning to Construct Velocity Fields from OH-PLIF Images", in **Combustion Science and Technology**, 2019. [Paper](https://arxiv.org/pdf/1909.13669.pdf)
 
 ## *Information extraction*
 
-- ignition stuff
-- CROM stuff
-- state estimation
+Despite large numerical and experimental available datasets it is not always straightforward to extract useful information for design purpose. I have found that reducing datasets either via sparse-sensing or data clustering can be a valuable tool. Sparse sensing can allow to pinpoint the cause of a variability in observations. Practically, we have used it to understand the cause being ignition kernels that catch fire or that that blow-out in aircraft engines.
+
+GIF + Sparse sensing
+
+Clustering can be useful to extract an interpretable and statistically significant sequence of states that explain a given phenomenon. I have used clustering to identify ignition mode and blow-out modes for ignition kernels that interact with different fuels. I used it to understand why a flame may attack or detach from a nozzle in a swirl combustor.
+
+IGN MODE + GRAPH Shivam
 
 
 ### Related publications
 1. M. Hassanaly, Y. Tang, S. Barwey, V. Raman, "Data-driven analysis of relight variability of jet fuels induced by turbulence" in **Combustion and Flame**, 2021. [Paper](https://arxiv.org/pdf/2011.06696.pdf)
 2. S. Barwey, M. Hassanaly, Q. An, V. Raman, A. Steinberg, "Experimental data-based reduced-order model for analysis and prediction of flame transition in gas turbine combustors" in **Combustion Theory and Modelling**, 2019. [Paper](https://arxiv.org/pdf/1904.00546.pdf)
 3. S. Barwey, H. Ganesh, M. Hassanaly, V. Raman, S. Ceccio, "Data-based analysis of multimodal partial cavity shedding dynamics" in **Experiments in Fluids**, 2020. [Paper](https://drive.google.com/file/d/1cHa3zFwG378uNvRHxUjHwr9xSjccY8QP/view)
-4. S. Barwey, M. Hassanaly, V. Raman, A. Steinberg, "Using Machine Learning to Construct Velocity Fields from OH-PLIF Images", in **Combustion Science and Technology**, 2019. [Paper](https://arxiv.org/pdf/1909.13669.pdf)
 
 
 <h2><a id="cfm">Complex fluid flows and High-Performance Computing (HPC)</a></h2>
