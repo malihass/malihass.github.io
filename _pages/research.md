@@ -45,8 +45,9 @@ Internally, some generative models directly learn the PDF that is being manipula
 Despite large numerical and experimental available datasets it is not always straightforward to extract useful information for design purpose. I have found that reducing datasets either via sparse-sensing or data clustering can be a valuable tool. Sparse sensing can allow to pinpoint the cause of a variability in observations. Practically, we have used it to understand the cause being ignition kernels that catch fire or that that blow-out in aircraft engines.
 
 <p align="center">
+<img src="/images/failure-modified.gif" width="375" height="125"/> 
+<img src="/images/success-modified.gif" width="375" height="125"/> 
 <img src="/images/ign-sensors.png" width="375" height="125"/> 
-GIF + Sparse sensing
 </p>
 
 Clustering can be useful to extract an interpretable and statistically significant sequence of states that explain a given phenomenon. I have used clustering to identify ignition mode and blow-out modes for ignition kernels that interact with different fuels. I used it to understand why a flame may attack or detach from a nozzle in a swirl combustor.
@@ -69,7 +70,7 @@ Reacting flows modeling is a challenging computational problem that require effi
 
 <p align="center">
 <img src="/images/soot.png" width="375" height="125"/> 
-Soot picture, deposition reactor 
+<img src="/images/cvd.png" width="375" height="125"/> 
 </p>
 
 ### Related work:
@@ -81,7 +82,9 @@ Soot picture, deposition reactor
 ## *Numerical solver*
 No matter how accurate are physics models, they intimately interact with numerical solvers which can introduce larger errors than the physics-modeling approach. For instance, numerical discretization may introduce dissipation that outweighs the effect of turbulence models. I have developed a solver that minimize the amount of numerical dissipation of variable density low-Mach solvers in OpenFoam. 
 
-Picture 
+<p align="center">
+<img src="/images/dissipation.png" width="750" height="250"/> 
+</p>
 
 In turn, numerical solvers also depend on the computing architecture on which they are deployed. With the rise of GPU/CPU computing architectures, writing efficient code requires appropriate memory management. I have developed an approach where numerical chemistry Jacobian can be symbolically encoded, allowing to control the common subexpressions precomputations. A tradeoff between memory and computational intensity can be done that way. The approach has been deployed on Exascale machines.
 
@@ -100,7 +103,10 @@ Inverse Bayesian parametric inference can allow objective system identification 
  
 ## *Rare event probability estimation*
 Efficiently estimating rare event probability requires artificially increasing the number of rare events observed. I develop methods for encouraging the occurrence of rare events in physics simulations.
-IMAGE
+<p align="center">
+<img src="/images/gams.jpg" width="750" height="250"/>
+</p>
+
 
 ## *Uncertainty propagation*
 
