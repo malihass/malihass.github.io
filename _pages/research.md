@@ -17,18 +17,18 @@ redirect_from:
 
 ## *Generative models*
 
-Generative models can be useful for manipulating high-dimensional probability density functions which are often critical for closure modeling, state estimation or data curation. I develop methods for Generative Adversarial Networks (GANs) for uncertainty-aware state estimation of atmospheric flows.
+Generative models can be useful for manipulating high-dimensional probability density functions which are often critical for closure modeling, state estimation or data curation. I develop methods for generative adversarial networks (GANs) for uncertainty-aware state estimation of atmospheric flows.
 
 <p align="center">
 <img src="/images/demoDiverseSR.gif" width="375" height="125"/>
 <img src="/images/cgan-wtlk.png" width="375" height="125"/>
 </p>
 
-Since sampled generated with GANs are typically high quality, they can be amenable to forward simulations that can assists uncertainty quantification tasks that use ensemble of forward simulations (typical in atmospheric modeling). When estimating rare-event probability, the sampling strategy can be critical and can benefit from a well informed generative procedure.
+Since samples generated with GANs are typically high quality, they can be amenable to forward simulations that can assist uncertainty quantification tasks that use ensembles of forward simulations (typical in atmospheric modeling). When estimating rare-event probability, the sampling strategy can be critical and can benefit from a well-informed generative procedure.
 
 PLOTS
 
-Internally, some generative models directly learn the PDF that is being manipulated. Crucially, they work well in high-dimensions. The PDF estimate can be used for various scientific tasks. For instance, I use them to curate datasets and transform inhomogenously distributed data into a uniform-in-phase-space dataset.
+Internally, some generative models directly learn the PDF that is being manipulated. Crucially, they work well in high dimensions. The PDF estimate can be used for various scientific tasks. For instance, I use them to curate datasets and transform inhomogeneously distributed data into a uniform-in-phase-space dataset.
 
 <p align="center">
 <img src="/images/uips.png" width="750" height="250"/>
@@ -79,11 +79,11 @@ Soot picture, deposition reactor
 4. S. T. Chong, M. Hassanaly, H. Koo, M. E. Mueller, V. Raman, K.-P. Geigle, "Large eddy simulation of pressure and dilution-jet effects on soot formation in a model aircraft swirl combustor" in **Combustion and Flame**, 2018. [\[PDF\]](https://elib.dlr.de/119917/1/2018_chong_geigle_cf_author_final.pdf).
 
 ## *Numerical solver*
-No matter how accurate are physics models, they intimately interact with numerical solvers which can introduce larger errors than the physics-modeling approach. For instance, numerical discretization may introduce dissipation that outweight the effect of turbulence models. I have developed a solvers that minimize the amount of numerical dissipation of variable density low-Mach solvers in OpenFoam. 
+No matter how accurate are physics models, they intimately interact with numerical solvers which can introduce larger errors than the physics-modeling approach. For instance, numerical discretization may introduce dissipation that outweighs the effect of turbulence models. I have developed a solver that minimize the amount of numerical dissipation of variable density low-Mach solvers in OpenFoam. 
 
 Picture 
 
-In turn, numerical solvers also depend on the computing architecture on which they are deployed. With the rise of GPU/CPU computing architectures, writing efficient code requires appropriate memory management. I have developed an approach where numerical chemistry Jacobian can be symbolically encoded, allowing to control common-subexpression precomputations. A tradeoff between memory and computational intensity can be done that way. The approach has been deployed on Exascale machines.
+In turn, numerical solvers also depend on the computing architecture on which they are deployed. With the rise of GPU/CPU computing architectures, writing efficient code requires appropriate memory management. I have developed an approach where numerical chemistry Jacobian can be symbolically encoded, allowing to control the common subexpressions precomputations. A tradeoff between memory and computational intensity can be done that way. The approach has been deployed on Exascale machines.
 
 ### Related work
 1. M. Hassanaly, H. Koo, C. F. Lietz, S. T. Chong, V. Raman, "A minimally-dissipative low-Mach number solver for complex reacting flows in OpenFOAM" in **Computer and Fluids**, 2018. [\[PDF\]](https://arxiv.org/pdf/1705.04777.pdf).
@@ -93,13 +93,13 @@ In turn, numerical solvers also depend on the computing architecture on which th
 <h2><a id="uq">Uncertainty quantification (UQ)</a></h2>
 
 ## *Bayesian inference*
-Inverse Bayesian parametric inference can allow objective system identification given a limited dataset. In the context of Li-ion battery degradation, data availability is usually sparse, and the degradation may occur through different parameter sets. Inverse parameteric inference can help identify the degradation mode or decide that more data is needed. However, the cost of parametric inference may be prohibitive when complex forward physics models are used. I develop surrogate approaches based on physics-informed neural networks to replace expensive Li-ion battery models.
+Inverse Bayesian parametric inference can allow objective system identification given a limited dataset. In the context of Li-ion battery degradation, data availability is usually sparse, and the degradation may occur through different parameter sets. Inverse parametric inference can help identify the degradation mode or decide that more data is needed. However, the cost of parametric inference may be prohibitive when complex forward physics models are used. I develop surrogate approaches based on physics-informed neural networks to replace expensive Li-ion battery models.
 <p align="center">
 <img src="/images/pinn-battery.jpg" width="750" height="250"/>
 </p>
  
 ## *Rare event probability estimation*
-Efficiently estimating rare event probability requires artificially increasing the number of rare event observed. I develop methods for encouraging the occurence of rare events in physics simulations
+Efficiently estimating rare event probability requires artificially increasing the number of rare events observed. I develop methods for encouraging the occurrence of rare events in physics simulations.
 IMAGE
 
 ## *Uncertainty propagation*
