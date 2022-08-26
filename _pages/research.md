@@ -93,11 +93,14 @@ In turn, numerical solvers also depend on the computing architecture on which th
 <h2><a id="uq">Uncertainty quantification (UQ)</a></h2>
 
 ## *Bayesian inference*
+Inverse Bayesian parametric inference can allow objective system identification given a limited dataset. In the context of Li-ion battery degradation, data availability is usually sparse, and the degradation may occur through different parameter sets. Inverse parameteric inference can help identify the degradation mode or decide that more data is needed. However, the cost of parametric inference may be prohibitive when complex forward physics models are used. I develop surrogate approaches based on physics-informed neural networks to replace expensive Li-ion battery models.
 <p align="center">
 <img src="/images/pinn-battery.jpg" width="750" height="250"/>
 </p>
  
 ## *Rare event probability estimation*
+Efficiently estimating rare event probability requires artificially increasing the number of rare event observed. I develop methods for encouraging the occurence of rare events in physics simulations
+IMAGE
 
 ## *Uncertainty propagation*
 
