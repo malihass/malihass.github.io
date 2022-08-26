@@ -79,7 +79,7 @@ Reacting flows modeling is a challenging computational problem that require effi
 1. M. Hassanaly, H. Sitaraman, K. L. Schulte, A. J. Ptak, J. Simon, K. Udwary, J. H. Leach, H. Splawn, "Surface chemistry models for GaAs epitaxial growth and hydride cracking using reacting flow simulations" in **Journal of Applied Physics**, 2021. [\[PDF\]](https://arxiv.org/pdf/2109.11540)
 2. Y. Tang, M. Hassanaly, V. Raman, B. Sforzo, J. Seitzman, "A comprehensive modeling procedure for estimating statistical properties of forced ignition" in **Combustion and Flame**, 2019. [\[PDF\]](https://www.osti.gov/servlets/purl/1570445)
 3. H. Koo, M. Hassanaly, V. Raman, M. E. Mueller, K.-P. Geigle, "Large-eddy simulation of soot formation in a model gas turbine combustor" in **Journal of Engineering for Gas Turbines and Power**, 2017. [\[PDF\]](https://elib.dlr.de/107073/1/2016_koo_geigle_GTP_author_final.pdf)
-4. S. T. Chong, M. Hassanaly, H. Koo, M. E. Mueller, V. Raman, K.-P. Geigle, "Large eddy simulation of pressure and dilution-jet effects on soot formation in a model aircraft swirl combustor" in **Combustion and Flame**, 2018. [\[PDF\]](https://elib.dlr.de/119917/1/2018_chong_geigle_cf_author_final.pdf).
+4. S. T. Chong, M. Hassanaly, H. Koo, M. E. Mueller, V. Raman, K.-P. Geigle, "Large eddy simulation of pressure and dilution-jet effects on soot formation in a model aircraft swirl combustor" in **Combustion and Flame**, 2018. [\[PDF\]](https://elib.dlr.de/119917/1/2018_chong_geigle_cf_author_final.pdf)
 
 ## *Numerical solver*
 No matter how accurate are physics models, they intimately interact with numerical solvers which can introduce larger errors than the physics-modeling approach. For instance, numerical discretization may introduce dissipation that outweighs the effect of turbulence models. I have developed a solver that minimize the amount of numerical dissipation of variable density low-Mach solvers in OpenFoam. 
@@ -91,7 +91,7 @@ No matter how accurate are physics models, they intimately interact with numeric
 In turn, numerical solvers also depend on the computing architecture on which they are deployed. With the rise of GPU/CPU computing architectures, writing efficient code requires appropriate memory management. I have developed an approach where numerical chemistry Jacobian can be symbolically encoded, allowing to control the common subexpressions precomputations. A tradeoff between memory and computational intensity can be done that way. The approach has been deployed on Exascale machines.
 
 ### Related work
-1. M. Hassanaly, H. Koo, C. F. Lietz, S. T. Chong, V. Raman, "A minimally-dissipative low-Mach number solver for complex reacting flows in OpenFOAM" in **Computer and Fluids**, 2018. [\[PDF\]](https://arxiv.org/pdf/1705.04777.pdf).
+1. M. Hassanaly, H. Koo, C. F. Lietz, S. T. Chong, V. Raman, "A minimally-dissipative low-Mach number solver for complex reacting flows in OpenFOAM" in **Computer and Fluids**, 2018. [\[PDF\]](https://arxiv.org/pdf/1705.04777.pdf)
 2. [\[Documentation\]](https://amrex-combustion.github.io/PelePhysics/QSS.html) on common-subexpression precomputations, and symbolic chemical Jacobian.
 
 
@@ -116,4 +116,4 @@ Coming Soon!
 
 ### Related work:
 1. M. Hassanaly, P. J. Weddle, K. Smith, S. De, A. Doostan, R. N. King, "Physics-Informed Neural Network Modeling of Li-Ion Batteries", in **242nd ECS Meeting**, 2022. [\[Abstract\]](https://ecs.confex.com/ecs/242/meetingapp.cgi/Paper/163872)
-2. M. Hassanaly, V. Raman, "A self-similarity principle for the computation of rare event probability" in **Journal of Physics A: Mathematical and Theoretical**, 2019. [\[PDF\]](https://arxiv.org/pdf/1911.01222.pdf).
+2. M. Hassanaly, V. Raman, "A self-similarity principle for the computation of rare event probability" in **Journal of Physics A: Mathematical and Theoretical**, 2019. [\[PDF\]](https://arxiv.org/pdf/1911.01222.pdf)
