@@ -72,5 +72,6 @@ redirect_from:
 
 ## *Uncertainty propagation*
 
-
-
+### Related publications:
+1. M. Hassanaly, P. J. Weddle, K. Smith, S. De, A. Doostan, R. N. King, "Physics-Informed Neural Network Modeling of Li-Ion Batteries", in **242nd ECS Meeting**, 2022. [Abstract](https://ecs.confex.com/ecs/242/meetingapp.cgi/Paper/163872)
+2. M. Hassanaly, V. Raman, "A self-similarity principle for the computation of rare event probability" in **Journal of Physics A: Mathematical and Theoretical**, 2019. [Paper](https://arxiv.org/pdf/1911.01222.pdf).
