@@ -17,9 +17,17 @@ redirect_from:
 
 ## *Generative models*
 
-- Probabilistic data augmentation
-- Rare event probability
-- Data reduction methods
+Generative models can be useful for manipulating high-dimensional probability density functions which are often critical for closure modeling, state estimation or data curation. I develop methods for Generative Adversarial Networks (GANs) for uncertainty-aware state estimation of atmospheric flows.
+
+GIF
+
+Since sampled generated with GANs are typically high quality, they can be amenable to forward simulations that can assists uncertainty quantification tasks that use ensemble of forward simulations (typical in atmospheric modeling). When estimating rare-event probability, the sampling strategy can be critical and can benefit from a well informed generative procedure.
+
+PLOTS
+
+Internally, some generative models directly learn the PDF that is being manipulated. Crucially, they work well in high-dimensions. The PDF estimate can be used for various scientific tasks. For instance, I use them to curate datasets and transform inhomogenously distributed data into a uniform-in-phase-space dataset.
+
+GRAPHICAL abstract
 
 ### Related publications:
 
