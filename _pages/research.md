@@ -19,8 +19,10 @@ redirect_from:
 
 Generative models can be useful for manipulating high-dimensional probability density functions which are often critical for closure modeling, state estimation or data curation. I develop methods for Generative Adversarial Networks (GANs) for uncertainty-aware state estimation of atmospheric flows.
 
-<img src="/images/demoDiverseSR.gif" width="750" height="250"/>
-<img src="/images/cgan-wtlk.png" width="750" height="250"/>
+<p align="center">
+<img src="/images/demoDiverseSR.gif" width="375" height="125"/>
+<img src="/images/cgan-wtlk.png" width="375" height="125"/>
+</p>
 
 Since sampled generated with GANs are typically high quality, they can be amenable to forward simulations that can assists uncertainty quantification tasks that use ensemble of forward simulations (typical in atmospheric modeling). When estimating rare-event probability, the sampling strategy can be critical and can benefit from a well informed generative procedure.
 
@@ -28,7 +30,9 @@ PLOTS
 
 Internally, some generative models directly learn the PDF that is being manipulated. Crucially, they work well in high-dimensions. The PDF estimate can be used for various scientific tasks. For instance, I use them to curate datasets and transform inhomogenously distributed data into a uniform-in-phase-space dataset.
 
+<p align="center">
 <img src="/images/uips.png" width="750" height="250"/>
+</p>
 
 ### Related work:
 1. M. Hassanaly, A. Glaws, K. Stengel, R. N. King, "Adversarial sampling of unknown and high-dimensional conditional distributions" in **Journal of Computational Physics**, 2022. [\[PDF\]](https://arxiv.org/pdf/2111.05962.pdf), [\[Code\]](https://github.com/NREL/diversity_SR)
@@ -40,13 +44,17 @@ Internally, some generative models directly learn the PDF that is being manipula
 
 Despite large numerical and experimental available datasets it is not always straightforward to extract useful information for design purpose. I have found that reducing datasets either via sparse-sensing or data clustering can be a valuable tool. Sparse sensing can allow to pinpoint the cause of a variability in observations. Practically, we have used it to understand the cause being ignition kernels that catch fire or that that blow-out in aircraft engines.
 
-<img src="/images/ign-sensors.png" width="750" height="250"/> 
+<p align="center">
+<img src="/images/ign-sensors.png" width="375" height="125"/> 
 GIF + Sparse sensing
+</p>
 
 Clustering can be useful to extract an interpretable and statistically significant sequence of states that explain a given phenomenon. I have used clustering to identify ignition mode and blow-out modes for ignition kernels that interact with different fuels. I used it to understand why a flame may attack or detach from a nozzle in a swirl combustor.
 
-<img src="/images/ign-modes.png" width="750" height="250"/> <img src="/images/crom-swirl.png" width="750" height="250"/>
+<p align="center">
+<img src="/images/ign-modes.png" width="375" height="125"/> <img src="/images/crom-swirl.png" width="375" height="125"/>
 
+</p>
 
 ### Related work
 1. M. Hassanaly, Y. Tang, S. Barwey, V. Raman, "Data-driven analysis of relight variability of jet fuels induced by turbulence" in **Combustion and Flame**, 2021. [\[PDF\]](https://arxiv.org/pdf/2011.06696.pdf)
@@ -59,8 +67,10 @@ Clustering can be useful to extract an interpretable and statistically significa
 ## *Reacting flows*
 Reacting flows modeling is a challenging computational problem that require efficiently modeling microscopic scale phenomena that influence macroscopic scales, without resolving the entire range of scales. I work on population-balance equations for modeling of soot particles. Additionally, reacting flows require resolving stiff systems of ODE that can accurately model complex chemistry. However, chemiscal composition usually spans a reduced part of composition space. It is therefore possible to represent the chemistry on low-dimensional manifold that can represent the dynamics of the chemistry at a reduced computational cost. I help develop this approach for modeling turbulent ignition of jet fuels. Alternatively, surrogate reduced chemistry models can be developed to replace detailed chemisty approaches. I develop such a strategy for surface chemistry models in deposition reactors. 
 
-<img src="/images/soot.png" width="750" height="250"/> 
+<p align="center">
+<img src="/images/soot.png" width="375" height="125"/> 
 Soot picture, deposition reactor 
+</p>
 
 ### Related work:
 1. M. Hassanaly, H. Sitaraman, K. L. Schulte, A. J. Ptak, J. Simon, K. Udwary, J. H. Leach, H. Splawn, "Surface chemistry models for GaAs epitaxial growth and hydride cracking using reacting flow simulations" in **Journal of Applied Physics**, 2021. [\[PDF\]](https://arxiv.org/pdf/2109.11540)
@@ -83,10 +93,15 @@ In turn, numerical solvers also depend on the computing architecture on which th
 <h2><a id="uq">Uncertainty quantification (UQ)</a></h2>
 
 ## *Bayesian inference*
-<img src="/images/pinn-battery.png" width="750" height="250"/>
+<p align="center">
+<img src="/images/pinn-battery.jpg" width="750" height="250"/>
+</p>
  
+## *Rare event probability estimation*
 
 ## *Uncertainty propagation*
+
+Coming Soon!
 
 ### Related work:
 1. M. Hassanaly, P. J. Weddle, K. Smith, S. De, A. Doostan, R. N. King, "Physics-Informed Neural Network Modeling of Li-Ion Batteries", in **242nd ECS Meeting**, 2022. [\[Abstract\]](https://ecs.confex.com/ecs/242/meetingapp.cgi/Paper/163872)
