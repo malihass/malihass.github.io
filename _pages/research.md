@@ -25,7 +25,7 @@ Generative models can be useful for manipulating high-dimensional probability de
 <img src="/images/cgan-wtlk.png" width="375" height="125"/>
 </p>
 
-Since samples generated with GANs are typically high quality, they can be amenable to forward simulations that can assist uncertainty quantification tasks that use ensembles of forward simulations (typical in atmospheric modeling). When estimating rare-event probability, the sampling strategy can be critical and can benefit from a well-informed generative procedure.
+Since samples generated with GANs are typically of high quality, they can be amenable to forward simulations that can assist uncertainty quantification tasks that use ensembles of forward simulations (typical in atmospheric modeling). When estimating rare-event probability, the sampling strategy can be critical and can benefit from a well-informed generative procedure.
 
 <p align="center">
 <img src="/images/ganisp.png" width="750" height="250"/>
