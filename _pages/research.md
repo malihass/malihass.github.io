@@ -13,7 +13,8 @@ redirect_from:
 {% include base_path %}
 
 
-<h2><a id="sciml">Scientific Machine Learning (SciML)</a></h2>
+<a id="sciml"></a>
+<h2>Scientific Machine Learning (SciML)</h2>
 
 ## *Generative models*
 
@@ -65,7 +66,8 @@ Clustering can be useful to extract an interpretable and statistically significa
 3. S. Barwey, H. Ganesh, M. Hassanaly, V. Raman, S. Ceccio, "Data-based analysis of multimodal partial cavity shedding dynamics" in **Experiments in Fluids**, 2020. [\[PDF\]](https://drive.google.com/file/d/1cHa3zFwG378uNvRHxUjHwr9xSjccY8QP/view)
 
 
-<h2><a id="cfm">Complex fluid flows and High-Performance Computing (HPC)</a></h2>
+<a id="cfm"></a>
+<h2>Complex fluid flows and High-Performance Computing (HPC)</h2>
 
 ## *Reacting flows*
 Reacting flows modeling is a challenging computational problem that require efficiently modeling microscopic scale phenomena that influence macroscopic scales, without resolving the entire range of scales. I work on population-balance equations for modeling of soot particles. Additionally, reacting flows require resolving stiff systems of ODE that can accurately model complex chemistry. However, chemiscal composition usually spans a reduced part of composition space. It is therefore possible to represent the chemistry on low-dimensional manifold that can represent the dynamics of the chemistry at a reduced computational cost. I help develop this approach for modeling turbulent ignition of jet fuels. Alternatively, surrogate reduced chemistry models can be developed to replace detailed chemisty approaches. I develop such a strategy for surface chemistry models in deposition reactors. 
@@ -95,7 +97,8 @@ In turn, numerical solvers also depend on the computing architecture on which th
 2. [\[Documentation\]](https://amrex-combustion.github.io/PelePhysics/QSS.html) on common-subexpression precomputations, and symbolic chemical Jacobian.
 
 
-<h2><a id="uq">Uncertainty quantification (UQ)</a></h2>
+<a id="uq"></a>
+<h2>Uncertainty quantification (UQ)</h2>
 
 ## *Bayesian inference*
 Inverse Bayesian parametric inference can allow objective system identification given a limited dataset. In the context of Li-ion battery degradation, data availability is usually sparse, and the degradation may occur through different parameter sets. Inverse parametric inference can help identify the degradation mode or decide that more data is needed. However, the cost of parametric inference may be prohibitive when complex forward physics models are used. I develop surrogate approaches based on physics-informed neural networks to replace expensive Li-ion battery models.
