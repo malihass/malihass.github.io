@@ -21,7 +21,7 @@
       text-decoration: underline;
 
       img {
-        box-shadow: 0 0 10px rgba(#000, 0.25);
+        transform: scale(1.05);
       }
     }
   }
@@ -71,16 +71,6 @@
   overflow: hidden;
   img {
     width: 100%;
-  }
-}
-
-.archive__item:hover {
-  .archive__item-teaser {
-    box-shadow: 0 0 10px rgba(#000, 0.25);
-  }
-
-  .archive__item-title {
-    text-decoration: underline;
   }
 }
 
