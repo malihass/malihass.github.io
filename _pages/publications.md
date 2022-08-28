@@ -10,6 +10,8 @@ redirect_from:
   - "/publications.html"
 ---
 
+I try to make sure all my articles are freely accessible. If you cannot access one, shoot me a message! (malik[dot]hassanaly[at]gmail[dot]com)
+
 {% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
