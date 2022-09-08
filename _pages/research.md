@@ -41,7 +41,7 @@ Internally, some generative models directly learn the PDF that is being manipula
 1. M. Hassanaly, A. Glaws, K. Stengel, R. N. King, "Adversarial sampling of unknown and high-dimensional conditional distributions" in **Journal of Computational Physics**, 2022. [\[PDF\]](https://arxiv.org/pdf/2111.05962.pdf), [\[Code\]](https://github.com/NREL/diversity_SR)
 2. M. Hassanaly, A. Glaws, R. N. King, "GANISP: a GAN-assisted Importance SPlitting Probability Estimator" in **AAAI-ADAM**, 2022. [\[PDF\]](https://arxiv.org/pdf/2112.15444.pdf), [\[Code\]](https://github.com/NREL/GANISP)
 3. M. Hassanaly, B. Perry, M. E. Mueller, S. Yellapantula, "Uniform-in-Phase-Space Data Selection with Iterative Normalizing Flows", **Under Review**, 2022. [\[PDF\]](https://arxiv.org/pdf/2112.15446), [\[Code\]](https://github.com/NREL/Phase-space-sampling)
-4. H.-W. Pang, M. Hassanaly, B. Perry, M. Day, W. H. Green, "Iterative Workflow for Quantification and Minimization of Reduced Chemistry-Induced Uncertainties in Reacting Flow Simulation", **WIPP 39th International Symposium on Combustion**, 2022. [\[PDF\]](https://www.nrel.gov/docs/fy22osti/83520.pdf)
+4. H.-W. Pang, M. Hassanaly, B. Perry, M. Day, W. H. Green, "Iterative Workflow for Quantification and Minimization of Reduced Chemistry-Induced Uncertainties in Reacting Flow Simulation", **WIPP 39th International Symposium on Combustion**, 2022. [\[Poster\]](https://www.nrel.gov/docs/fy22osti/83520.pdf)
 5. S. Barwey, M. Hassanaly, V. Raman, A. Steinberg, "Using Machine Learning to Construct Velocity Fields from OH-PLIF Images", in **Combustion Science and Technology**, 2019. [\[PDF\]](https://arxiv.org/pdf/1909.13669.pdf)
 
 ## *Information extraction*
@@ -80,9 +80,10 @@ Reacting flows modeling is a challenging computational problem that require effi
 
 ### Related work:
 1. M. Hassanaly, H. Sitaraman, K. L. Schulte, A. J. Ptak, J. Simon, K. Udwary, J. H. Leach, H. Splawn, "Surface chemistry models for GaAs epitaxial growth and hydride cracking using reacting flow simulations" in **Journal of Applied Physics**, 2021. [\[PDF\]](https://arxiv.org/pdf/2109.11540)
-2. Y. Tang, M. Hassanaly, V. Raman, B. Sforzo, J. Seitzman, "A comprehensive modeling procedure for estimating statistical properties of forced ignition" in **Combustion and Flame**, 2019. [\[PDF\]](https://www.osti.gov/servlets/purl/1570445)
-3. H. Koo, M. Hassanaly, V. Raman, M. E. Mueller, K.-P. Geigle, "Large-eddy simulation of soot formation in a model gas turbine combustor" in **Journal of Engineering for Gas Turbines and Power**, 2017. [\[PDF\]](https://elib.dlr.de/107073/1/2016_koo_geigle_GTP_author_final.pdf)
-4. S. T. Chong, M. Hassanaly, H. Koo, M. E. Mueller, V. Raman, K.-P. Geigle, "Large eddy simulation of pressure and dilution-jet effects on soot formation in a model aircraft swirl combustor" in **Combustion and Flame**, 2018. [\[PDF\]](https://elib.dlr.de/119917/1/2018_chong_geigle_cf_author_final.pdf)
+2. M. Hassanaly, H. Sitaraman, K. Udwary, K. L. Schulte, H. Splawn, A. Ptak, J. Simon, "Optimization of Hydride Vapor Phase Epitaxy (HVPE) Deposition Reactor Manufacturing III-V Materials Using Multiple Large-Eddy Simulations (LES)" in **AIChE Annual Meeting**, 2020. [\[Abstract\]](/files/pdf/dhvpe_aiche.pdf)
+3. Y. Tang, M. Hassanaly, V. Raman, B. Sforzo, J. Seitzman, "A comprehensive modeling procedure for estimating statistical properties of forced ignition" in **Combustion and Flame**, 2019. [\[PDF\]](https://www.osti.gov/servlets/purl/1570445)
+4. H. Koo, M. Hassanaly, V. Raman, M. E. Mueller, K.-P. Geigle, "Large-eddy simulation of soot formation in a model gas turbine combustor" in **Journal of Engineering for Gas Turbines and Power**, 2017. [\[PDF\]](https://elib.dlr.de/107073/1/2016_koo_geigle_GTP_author_final.pdf)
+5. S. T. Chong, M. Hassanaly, H. Koo, M. E. Mueller, V. Raman, K.-P. Geigle, "Large eddy simulation of pressure and dilution-jet effects on soot formation in a model aircraft swirl combustor" in **Combustion and Flame**, 2018. [\[PDF\]](https://elib.dlr.de/119917/1/2018_chong_geigle_cf_author_final.pdf)
 
 ## *Numerical solver*
 No matter how accurate are physics models, they intimately interact with numerical solvers which can introduce larger errors than the physics-modeling approach. For instance, numerical discretization may introduce dissipation that outweighs the effect of turbulence models. I have developed a solver that minimize the amount of numerical dissipation of variable density low-Mach solvers in OpenFoam. 
