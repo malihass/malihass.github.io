@@ -8,7 +8,7 @@ redirect_from:
   - "/Talks"
   - "/talks"
   - "/talks.html"
-  - "/talks.html"
+  - "/Talks.html"
 ---
 {% include base_path %}
 
