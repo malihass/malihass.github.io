@@ -108,6 +108,9 @@ Inverse Bayesian parametric inference can allow objective system identification 
 <p align="center">
 <img src="/images/pinn-battery.jpg" width="750" height="250"/>
 </p>
+
+### Related work:
+1. M. Hassanaly, P. J. Weddle, K. Smith, S. De, A. Doostan, R. N. King, "Physics-Informed Neural Network Modeling of Li-Ion Batteries", in **242nd ECS Meeting**, 2022. [\[Abstract\]](https://www.nrel.gov/docs/fy22osti/82015.pdf)
  
 ## *Rare event probability estimation*
 Efficiently estimating rare event probability requires artificially increasing the number of rare events observed. I develop methods for encouraging the occurrence of rare events in physics simulations.
@@ -115,12 +118,12 @@ Efficiently estimating rare event probability requires artificially increasing t
 <img src="/images/gams.png" width="750" height="250"/>
 </p>
 
+### Related work:
+1. M. Hassanaly, V. Raman, "A self-similarity principle for the computation of rare event probability" in **Journal of Physics A: Mathematical and Theoretical**, 2019. [\[PDF\]](https://arxiv.org/pdf/1911.01222.pdf)
+2. M. Hassanaly, A. Glaws, R. N. King, "GANISP: a GAN-assisted Importance SPlitting Probability Estimator" in **AAAI-ADAM**, 2022. [\[PDF\]](https://arxiv.org/pdf/2112.15444.pdf), [\[Code\]](https://github.com/NREL/GANISP)
+
 
 ## *Uncertainty propagation*
 
 Coming Soon!
 
-### Related work:
-1. M. Hassanaly, P. J. Weddle, K. Smith, S. De, A. Doostan, R. N. King, "Physics-Informed Neural Network Modeling of Li-Ion Batteries", in **242nd ECS Meeting**, 2022. [\[Abstract\]](https://www.nrel.gov/docs/fy22osti/82015.pdf)
-2. M. Hassanaly, V. Raman, "A self-similarity principle for the computation of rare event probability" in **Journal of Physics A: Mathematical and Theoretical**, 2019. [\[PDF\]](https://arxiv.org/pdf/1911.01222.pdf)
-3. M. Hassanaly, A. Glaws, R. N. King, "GANISP: a GAN-assisted Importance SPlitting Probability Estimator" in **AAAI-ADAM**, 2022. [\[PDF\]](https://arxiv.org/pdf/2112.15444.pdf), [\[Code\]](https://github.com/NREL/GANISP)
