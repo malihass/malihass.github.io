@@ -1,8 +1,7 @@
 ---
 title: "Bi-fidelity Modeling of Uncertain and Partially Unknown Systems using DeepONets"
 collection: publications
-permalink: 'https://arxiv.org/pdf/2204.00997'
-link: 'https://arxiv.org/pdf/2204.00997'
+link: 'https://link.springer.com/article/10.1007/s00466-023-02272-4'
 date: 2023-01-18
 venue: 'Computational Mechanics'
 paperurl: 'https://arxiv.org/pdf/2204.00997.pdf'
