@@ -38,11 +38,12 @@ Internally, some generative models directly learn the PDF that is being manipula
 </p>
 
 ### Related work:
-1. M. Hassanaly, A. Glaws, K. Stengel, R. N. King, "Adversarial sampling of unknown and high-dimensional conditional distributions" in **Journal of Computational Physics**, 2022. [\[PDF\]](https://arxiv.org/pdf/2111.05962.pdf), [\[Research code\]](https://github.com/NREL/diversity_SR)
+1. M. Hassanaly, A. Glaws, K. Stengel, R. N. King, "Adversarial sampling of unknown and high-dimensional conditional distributions" in **Journal of Computational Physics**, 2022. [\[PDF\]](https://arxiv.org/pdf/2111.05962.pdf), [\[Code\]](https://github.com/NREL/diversity_SR)
 2. M. Hassanaly, A. Glaws, R. N. King, "GANISP: a GAN-assisted Importance SPlitting Probability Estimator" in **AAAI-ADAM**, 2022. [\[PDF\]](https://arxiv.org/pdf/2112.15444.pdf), [\[Code\]](https://github.com/NREL/GANISP)
 3. M. Hassanaly, B. Perry, M. E. Mueller, S. Yellapantula, "Uniform-in-Phase-Space Data Selection with Iterative Normalizing Flows", **Data-Centric Engineering**, 2023. [\[PDF\]](https://arxiv.org/pdf/2112.15446), [\[Code\]](https://github.com/NREL/Phase-space-sampling)
-4. H.-W. Pang, M. Hassanaly, B. Perry, M. Day, W. H. Green, "Iterative Workflow for Quantification and Minimization of Reduced Chemistry-Induced Uncertainties in Reacting Flow Simulation", **WIPP 39th International Symposium on Combustion**, 2022. [\[Poster\]](https://www.nrel.gov/docs/fy22osti/83520.pdf)
-5. S. Barwey, M. Hassanaly, V. Raman, A. Steinberg, "Using Machine Learning to Construct Velocity Fields from OH-PLIF Images", in **Combustion Science and Technology**, 2019. [\[PDF\]](https://arxiv.org/pdf/1909.13669.pdf)
+4. A. Rybchuk, L. A Martínez-Tossas, N. Hamilton, P. Doubrawa, G. Vijayakumar, M. Hassanaly, M. B. Kuhn and D. S. Zalkind, "A baseline for ensemble-based, time-resolved inflow reconstruction for a single turbine using large-eddy simulations and latent diffusion models", **Wake Conference**, 2023. [\[PDF\]](https://iopscience.iop.org/article/10.1088/1742-6596/2505/1/012018/pdf)
+5. H.-W. Pang, M. Hassanaly, B. Perry, M. Day, W. H. Green, "Iterative Workflow for Quantification and Minimization of Reduced Chemistry-Induced Uncertainties in Reacting Flow Simulation", **WIPP 39th International Symposium on Combustion**, 2022. [\[Poster\]](https://www.nrel.gov/docs/fy22osti/83520.pdf)
+6. S. Barwey, M. Hassanaly, V. Raman, A. Steinberg, "Using Machine Learning to Construct Velocity Fields from OH-PLIF Images", in **Combustion Science and Technology**, 2019. [\[PDF\]](https://arxiv.org/pdf/1909.13669.pdf)
 
 ## *Information extraction*
 
