@@ -49,7 +49,7 @@ This code was primarily designed to optimize the design of spargers in bubble co
 
 
 
-## Sup3r ![](https://codecov.io/gh/nrel/sup3r/branch/main/graph/badge.svg) ![](https://github.com/NREL/sup3r/workflows/Pytests/badge.svg) ![](https://github.com/NREL/sup3r/workflows/Lint%20Code%20Base/badge.svg)
+## Sup3r [![Pytests](https://github.com/NREL/sup3r/actions/workflows/pull_request_tests.yml/badge.svg)](https://github.com/NREL/sup3r/actions/workflows/pull_request_tests.yml)  [![Lint Code Base](https://github.com/NREL/sup3r/actions/workflows/linter.yml/badge.svg)](https://github.com/NREL/sup3r/actions/workflows/linter.yml)  ![](https://codecov.io/gh/nrel/sup3r/branch/main/graph/badge.svg)
 
 [Code](https://github.com/NREL/sup3r)
 
