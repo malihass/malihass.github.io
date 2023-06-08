@@ -61,7 +61,7 @@ Super-resolution of global atmospheric models with Generative Adversarial Networ
 [Code](https://github.com/NREL/diversity_SR)
 [Paper](https://arxiv.org/abs/2111.05962)
 
-Diverse super-resolution of atmospheric data using a GAN (Generative Adversarial Neural Net). The diversity of the data generated is evaluated by computing a priori the conditional mean $$\mathbb{E}(HR|LR)$$ and the diagonal of the conditional variance $$\mathbb{E}(HR^2|LR)$$. During training, minibatches of atmospheric data are generated to evaluate empirically the moments aforementioned for the generated samples. The a priori and empirical moments are compared through a Frechet Distance loss which penalizes the generator. The advantage of this method is that the distribution of the generated samples can be quantitatively compared to the ideal distribution.  
+Diverse super-resolution of atmospheric data using a GAN (Generative Adversarial Neural Net). The diversity of the data generated is evaluated by computing a priori the conditional mean $$\mathbb{E}(HR \| LR)$$ and the diagonal of the conditional variance $$\mathbb{E}(HR^2 \| LR)$$. During training, minibatches of atmospheric data are generated to evaluate empirically the moments aforementioned for the generated samples. The a priori and empirical moments are compared through a Frechet Distance loss which penalizes the generator. The advantage of this method is that the distribution of the generated samples can be quantitatively compared to the ideal distribution.  
 
 ## GANISP
 
