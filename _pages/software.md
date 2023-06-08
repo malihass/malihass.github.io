@@ -39,10 +39,18 @@ Uniform-in-phase-space datasets can be generated using the probability map using
 
 [Code](https://github.com/NREL/spargerDesign)
 
-Generates clean meshes of block-cylindrical geometries. The code generates `blockMeshDict` which can be used to generate structured meshes with OpenFOAM. The interface to generate the `blockMeshDict` is designed to easily vary the geometry being meshed, thereby enabling geometry optimization tasks.
+Generates clean meshes of block-cylindrical geometries. The code generates `blockMeshDict` which can be used to generate structured meshes with OpenFOAM. The interface to generate the `blockMeshDict` is designed to easily vary the geometry being meshed, thereby enabling geometry optimization tasks. A schematic of the block cylindrical architecture described by `.json` files in the repo is show below (left). The corresponding mesh generated is shown on the right.
+<p float="left">
+  <img src="/files/images/schematicBlockCyl.png" width="350"/>
+  <img src="/files/images/3dsparger.png" width="200"/>
+</p>
 
  
-Another interface is provides to generate STL files which may be used to generate boundary conditions in OpenFOAM.
+Another interface is provides to generate STL files which may be used to generate boundary conditions in OpenFOAM. An example of such STL is shown below.
+<p float="left">
+  <img src="/files/images/spider.png" width="350"/> 
+</p>
+
 
 
 This code was primarily designed to optimize the design of spargers in bubble column reactors. However we can use it for any block cylindrical geometries which come up a lot more often than I initially thought!
@@ -61,7 +69,21 @@ Super-resolution of global atmospheric models with Generative Adversarial Networ
 [Code](https://github.com/NREL/diversity_SR)
 [Paper](https://arxiv.org/abs/2111.05962)
 
-Diverse super-resolution of atmospheric data using a GAN (Generative Adversarial Neural Net). The diversity of the data generated is evaluated by computing a priori the conditional mean $$\mathbb{E}(HR \| LR)$$ and the diagonal of the conditional variance $$\mathbb{E}(HR^2 \| LR)$$. During training, minibatches of atmospheric data are generated to evaluate empirically the moments aforementioned for the generated samples. The a priori and empirical moments are compared through a Frechet Distance loss which penalizes the generator. The advantage of this method is that the distribution of the generated samples can be quantitatively compared to the ideal distribution.  
+Diverse super-resolution of atmospheric data using a GAN (Generative Adversarial Neural Net). The diversity of the data generated is evaluated by computing a priori the conditional mean $$\mathbb{E}(HR \| LR)$$ and the diagonal of the conditional variance $$\mathbb{E}(HR^2 \| LR)$$. Examples of the a priori estimated moments are shown below.
+
+<p align="center">
+<img src="/files/images/aprioriMoments.png" width="600"/>
+</p>
+
+
+During training, minibatches of atmospheric data are generated to evaluate empirically the moments aforementioned for the generated samples. The a priori and empirical moments are compared through a Frechet Distance loss which penalizes the generator. The advantage of this method is that the distribution of the generated samples can be quantitatively compared to the ideal distribution.  
+Below is a demonstration of the data that can be generated. On the left a low-resolution wind data input is shown, on the right the true high-resolution data is show. In the middle, many possible super-resolved wind contour that map back to the same low-resolution input are shown.
+
+
+<p align="center">
+<img src="/images/demoDiverseSR.gif" width="562" height="187"/>
+</p>
+
 
 ## GANISP
 
@@ -69,7 +91,11 @@ Diverse super-resolution of atmospheric data using a GAN (Generative Adversarial
 [Paper](https://openreview.net/pdf?id=e6k_JgCT1P)
 [Reviews](https://openreview.net/forum?id=e6k_JgCT1P)
 
-Regularize genealogical adaptive multilevel splitting methods by using a Generative adversarial network (GAN) for the realization cloning. The GAN is regularized to encourage diverse generation of samples.
+Regularize genealogical adaptive multilevel splitting methods by using a Generative adversarial network (GAN) for the realization cloning. The GAN is regularized to encourage diverse generation of samples. Example of generated clones using the GAN vs a random cloning method are shown below in the case of Kuramoto-Sivashinsky equation.
+
+<p align="center">
+<img src="/files/images/cloning.png" width="550"/>
+</p>
 
 
 
