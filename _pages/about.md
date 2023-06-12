@@ -36,7 +36,7 @@ I work on:
 
 Uncertainty quantification (UQ)
 ======
-Decisions in energy systems typically involve financial an societal consequences. Therefore, appropriate quantification of uncertainty can enable critical decision-making. Uncertainty estimates are useful to objectively assess whether more information is needed and avoid over-confident conclusions. When decicions about extreme and rare events are needed, uncertainty estimates is even more instrumental but can be particularly challenging to compute.
+Decisions in energy systems typically involve financial an societal consequences. Therefore, appropriate quantification of uncertainty can enable critical decision-making. Uncertainty estimates are useful to objectively assess whether more information is needed and avoid over-confident conclusions. When decicions about extreme and rare events are needed, uncertainty estimates are even more instrumental but can be particularly challenging to compute.
 I work on:
 - Bayesian inference
 - Rare event probability estimation 
