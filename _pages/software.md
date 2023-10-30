@@ -99,7 +99,7 @@ Regularize genealogical adaptive multilevel splitting methods by using a Generat
 
 
 
-## PINNSTRIPES (Physics-Informed Neural Network SurrogaTe for Rapidly Identifying Parameters in Energy Systems) [![Pytests](https://github.com/NREL/PINNSTRIPES/actions/workflows/ci.yml/badge.svg)]
+## PINNSTRIPES (Physics-Informed Neural Network SurrogaTe for Rapidly Identifying Parameters in Energy Systems) [![PINNSTRIPES-CI](https://github.com/NREL/PINNSTRIPES/actions/workflows/ci.yml/badge.svg)](https://github.com/NREL/PINNSTRIPES/actions/workflows/ci.yml) 
 
 [Code](https://github.com/NREL/PINNSTRIPES)
 
