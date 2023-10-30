@@ -85,7 +85,7 @@ Below is a demonstration of the data that can be generated. On the left a low-re
 </p>
 
 
-## GANISP
+## GANISP (GAN-assited Importance SPlitting)
 
 [Code](https://github.com/NREL/GANISP)
 [Paper](https://openreview.net/pdf?id=e6k_JgCT1P)
@@ -98,5 +98,11 @@ Regularize genealogical adaptive multilevel splitting methods by using a Generat
 </p>
 
 
+
+## PINNSTRIPES (Physics-Informed Neural Network SurrogaTe for Rapidly Identifying Parameters in Energy Systems) [![Pytests](hhttps://github.com/NREL/PINNSTRIPES/actions/workflows/ci.yml/badge.svg)]
+
+[Code](https://github.com/NREL/PINNSTRIPES)
+
+Bayesian inference of Li-ion battery models parameters made data-efficient thanks to Physics-informed neural networks. The code contains a demonstration of the implementation for single particle model, and provides an interface for the Bayesian inference.
 
 
