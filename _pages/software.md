@@ -12,12 +12,14 @@ redirect_from:
 
 {% include base_path %}
 
-## Phase-space-sampling [![UIPS-CI](https://github.com/NREL/Phase-space-sampling/actions/workflows/ci.yml/badge.svg)](https://github.com/NREL/Phase-space-sampling/actions/workflows/ci.yml)
+## Phase-space-sampling [![UIPS-CI](https://github.com/NREL/Phase-space-sampling/actions/workflows/ci.yml/badge.svg)](https://github.com/NREL/Phase-space-sampling/actions/workflows/ci.yml) [![UIPS-pypi](https://badge.fury.io/py/uips.svg)](https://badge.fury.io/py/uips) 
+
 
 [Code](https://github.com/NREL/Phase-space-sampling)
 [Paper](https://www.cambridge.org/core/journals/data-centric-engineering/article/uniforminphasespace-data-selection-with-iterative-normalizing-flows/E6212E3FCB5A7EE7B1399BA49667B84C)
+[Pypi](https://pypi.org/project/uips/)
 
-Reduce a large dataset by strategically downselecting datapoints. The downselection preferentially keeps data points that have low probability and discards data points that are observed with high probability. The code can accomodate high-dimensions (we have tried up to 89 dimensions) and high number of data points (we have tried up to 100 millions). An MPI-parallel strategy is used to speed up the downselection. The probability estimation is done with a normalizing flow which can be trained with GPU to further accelerate training.
+Reduce a large dataset by strategically downselecting datapoints. The downselection preferentially keeps data points that have low probability and discards data points that are observed with high probability. The code can accommodate high-dimensions (we have tried up to 89 dimensions) and high number of data points (we have tried up to 100 millions). An MPI-parallel strategy is used to speed up the downselection. The probability estimation is done with a normalizing flow which can be trained with GPU to further accelerate training.
 
 Using an iterative PDF estimation, the training cost does not increase with the number of datapoints, thereby allows reducing very large dataset at a reduced cost. 
 
@@ -105,4 +107,14 @@ Regularize genealogical adaptive multilevel splitting methods by using a Generat
 
 Bayesian inference of Li-ion battery models parameters made data-efficient thanks to Physics-informed neural networks. The code contains a demonstration of the implementation for single particle model, and provides an interface for the Bayesian inference.
 
+
+## prettyPlot [![prettyPlot-CI](https://github.com/malihass/prettyPlot/actions/workflows/ci.yml/badge.svg)](https://github.com/malihass/prettyPlot/actions/workflows/ci.yml) [![prettyPlot-CI](https://badge.fury.io/py/prettyPlot.svg)](https://badge.fury.io/py/prettyPlot) 
+
+[Code](https://github.com/malihass/prettyPlot)
+[Pypi](https://pypi.org/project/prettyPlot/)
+
+A suite of tools to
+1. Standardize research plots in python
+2. Parse input files
+3. Display a progress bar for iterative processes
 
