@@ -112,7 +112,10 @@ Inverse Bayesian parametric inference can allow objective system identification 
 </p>
 
 ### Related work:
-1. M. Hassanaly, P. J. Weddle, K. Smith, S. De, A. Doostan, R. N. King, "Physics-Informed Neural Network Modeling of Li-Ion Batteries", in **242nd ECS Meeting**, 2022. [\[Abstract\]](https://www.nrel.gov/docs/fy22osti/82015.pdf) [\[Code\]](https://github.com/NREL/PINNSTRIPES)
+1. M. Hassanaly, P. J. Weddle, R. N. King, S. De, A. Doostan, C. R. Randall, E. J. Dufek, A. M. Colclasure, K. Smith, "PINN surrogate of Li-ion battery models for parameter inference. Part I: Implementation and multi-fidelity hierarchies for the single-particle model", in **Under Review**, 2024. [\[Paper\]](https://arxiv.org/pdf/2312.17329.pdf) [\[Code\]](https://github.com/NREL/PINNSTRIPES)
+2. M. Hassanaly, P. J. Weddle, R. N. King, S. De, A. Doostan, C. R. Randall, E. J. Dufek, A. M. Colclasure, K. Smith, "PINN surrogate of Li-ion battery models for parameter inference. Part II: Regularization and application of the pseudo-2D model", in **Under Review**, 2024. [\[Paper\]](https://arxiv.org/pdf/2312.17336.pdf)
+3. M. Hassanaly, P. J. Weddle, K. Smith, S. De, A. Doostan, R. N. King, "Physics-Informed Neural Network Modeling of Li-Ion Batteries", in **242nd ECS Meeting**, 2022. [\[Abstract\]](https://www.nrel.gov/docs/fy22osti/82015.pdf)
+
  
 ## *Rare event probability estimation*
 Efficiently estimating rare event probability requires artificially increasing the number of rare events observed. I develop methods for encouraging the occurrence of rare events in physics simulations.
