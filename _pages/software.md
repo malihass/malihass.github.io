@@ -104,6 +104,8 @@ Regularize genealogical adaptive multilevel splitting methods by using a Generat
 ## PINNSTRIPES (Physics-Informed Neural Network SurrogaTe for Rapidly Identifying Parameters in Energy Systems) [![PINNSTRIPES-CI](https://github.com/NREL/PINNSTRIPES/actions/workflows/ci.yml/badge.svg)](https://github.com/NREL/PINNSTRIPES/actions/workflows/ci.yml) 
 
 [Code](https://github.com/NREL/PINNSTRIPES)
+[Paper 1](https://arxiv.org/pdf/2312.17329.pdf)
+[Paper 2](https://arxiv.org/pdf/2312.17336.pdf)
 
 Bayesian inference of Li-ion battery models parameters made data-efficient thanks to Physics-informed neural networks. The code contains a demonstration of the implementation for single particle model, and provides an interface for the Bayesian inference.
 
