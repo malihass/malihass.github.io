@@ -37,7 +37,7 @@ Uniform-in-phase-space datasets can be generated using the probability map using
 
 
 
-<!-- ## Sparger Design [![SpargerDesign-CI](https://github.com/NREL/spargerDesign/actions/workflows/ci.yml/badge.svg)](https://github.com/NREL/spargerDesign/actions/workflows/ci.yml)
+<!--- ## Sparger Design [![SpargerDesign-CI](https://github.com/NREL/spargerDesign/actions/workflows/ci.yml/badge.svg)](https://github.com/NREL/spargerDesign/actions/workflows/ci.yml)
 
 [Code](https://github.com/NREL/spargerDesign)
 
@@ -56,7 +56,7 @@ Another interface is provides to generate STL files which may be used to generat
 
 
 This code was primarily designed to optimize the design of spargers in bubble column reactors. However we can use it for any block cylindrical geometries which come up a lot more often than I initially thought!
---!>
+-->
 
 
 ## Sup3r [![Pytests](https://github.com/NREL/sup3r/actions/workflows/pull_request_tests.yml/badge.svg)](https://github.com/NREL/sup3r/actions/workflows/pull_request_tests.yml)  [![Lint Code Base](https://github.com/NREL/sup3r/actions/workflows/linter.yml/badge.svg)](https://github.com/NREL/sup3r/actions/workflows/linter.yml)  ![](https://codecov.io/gh/nrel/sup3r/branch/main/graph/badge.svg)
