@@ -2,8 +2,8 @@
 title: "Physics-Informed Neural Network Modeling of Li-ion Batteries"
 collection: publications
 date: 2022-10-09
-permalink: 'https://ecs.confex.com/ecs/242/meetingapp.cgi/Paper/163872'
-link: 'https://ecs.confex.com/ecs/242/meetingapp.cgi/Paper/163872'
+permalink: 'https://iopscience.iop.org/article/10.1149/MA2022-023174mtgabs'
+link: 'https://iopscience.iop.org/article/10.1149/MA2022-023174mtgabs'
 venue: '242nd ECS Meeting'
 github: 'https://github.com/NREL/PINNSTRIPES'
 paperurl: 'https://www.nrel.gov/docs/fy22osti/82015.pdf'
