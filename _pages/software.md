@@ -37,9 +37,10 @@ Uniform-in-phase-space datasets can be generated using the probability map using
 
 
 
-<!--- ## Sparger Design [![SpargerDesign-CI](https://github.com/NREL/spargerDesign/actions/workflows/ci.yml/badge.svg)](https://github.com/NREL/spargerDesign/actions/workflows/ci.yml)
+# <ins>Bi</ins>o <ins>R</ins>eactor <ins>D</ins>esign (BiRD) [![bird-CI](https://github.com/NREL/BioReactorDesign/actions/workflows/ci.yml/badge.svg)](https://github.com/NREL/BioReactorDesign/actions/workflows/ci.yml) [![bird-pyversion](https://img.shields.io/pypi/pyversions/NREL-bird.svg)](https://pypi.org/project/NREL-bird/)  [![bird-pypi](https://badge.fury.io/py/nrel-bird.svg)](https://badge.fury.io/py/nrel-bird)
 
-[Code](https://github.com/NREL/spargerDesign)
+
+[Code](https://github.com/NREL/BioReactorDesign)
 
 Generates clean meshes of block-cylindrical geometries. The code generates `blockMeshDict` which can be used to generate structured meshes with OpenFOAM. The interface to generate the `blockMeshDict` is designed to easily vary the geometry being meshed, thereby enabling geometry optimization tasks. A schematic of the block cylindrical architecture described by `.json` files in the repo is show below (left). The corresponding mesh generated is shown on the right.
 <p float="left">
@@ -56,7 +57,6 @@ Another interface is provides to generate STL files which may be used to generat
 
 
 This code was primarily designed to optimize the design of spargers in bubble column reactors. However we can use it for any block cylindrical geometries which come up a lot more often than I initially thought!
--->
 
 
 ## Sup3r [![Pytests](https://github.com/NREL/sup3r/actions/workflows/pull_request_tests.yml/badge.svg)](https://github.com/NREL/sup3r/actions/workflows/pull_request_tests.yml)  [![Lint Code Base](https://github.com/NREL/sup3r/actions/workflows/linter.yml/badge.svg)](https://github.com/NREL/sup3r/actions/workflows/linter.yml)  ![](https://codecov.io/gh/nrel/sup3r/branch/main/graph/badge.svg)
