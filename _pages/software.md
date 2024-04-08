@@ -87,7 +87,7 @@ Below is a demonstration of the data that can be generated. On the left a low-re
 </p>
 
 
-## GANISP (GAN-assited Importance SPlitting)
+## GANISP (<ins>GAN</ins>-assited <ins>I</ins>mportance <ins>SP</ins>litting)
 
 [Code](https://github.com/NREL/GANISP)
 [Paper](https://openreview.net/pdf?id=e6k_JgCT1P)
@@ -101,7 +101,7 @@ Regularize genealogical adaptive multilevel splitting methods by using a Generat
 
 
 
-## PINNSTRIPES (Physics-Informed Neural Network SurrogaTe for Rapidly Identifying Parameters in Energy Systems) [![PINNSTRIPES-CI](https://github.com/NREL/PINNSTRIPES/actions/workflows/ci.yml/badge.svg)](https://github.com/NREL/PINNSTRIPES/actions/workflows/ci.yml) 
+## PINNSTRIPES (<ins>P</ins>hysics-<ins>I</ins>nformed <ins>N</ins>eural <ins>N</ins>etwork <ins>S</ins>urroga<ins>T</ins>e for <ins>R</ins>apidly <ins>I</ins>dentifying <ins>P</ins>arameters in <ins>E</ins>nergy <ins>S</ins>ystems) [![PINNSTRIPES-CI](https://github.com/NREL/PINNSTRIPES/actions/workflows/ci.yml/badge.svg)](https://github.com/NREL/PINNSTRIPES/actions/workflows/ci.yml) 
 
 [Code](https://github.com/NREL/PINNSTRIPES)
 [Paper 1](https://arxiv.org/pdf/2312.17329.pdf)
