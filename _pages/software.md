@@ -25,14 +25,14 @@ Using an iterative PDF estimation, the training cost does not increase with the 
 
 Starting from a large dataset non-uniformly sampled such as the left picture below. The probability density function of the dataset is estimated (picture below on the right).
 <p float="left">
-  <img src="/files/images/fulldataset.png" width="350"/>
-  <img src="/files/images/probabilityMap.png" width="350"/>
+  <img src="https://raw.githubusercontent.com/NREL/Phase-space-sampling/main/documentation/readmeImages/fulldataset.png" width="350"/>
+  <img src="https://raw.githubusercontent.com/NREL/Phase-space-sampling/main/documentation/readmeImages/probabilityMap.png" width="350"/>
 </p>
 
 Uniform-in-phase-space datasets can be generated using the probability map using an arbitrary number of downselected points. The pictures below show a reduced dataset with 1,000 and 10,000 datapoints.
 <p float="left">
-  <img src="/files/images/103_phaseSpaceSampling.png" width="350"/> 
-  <img src="/files/images/104_phaseSpaceSampling.png" width="350"/>
+  <img src="https://raw.githubusercontent.com/NREL/Phase-space-sampling/main/documentation/readmeImages/103_uips.png" width="350"/> 
+  <img src="https://raw.githubusercontent.com/NREL/Phase-space-sampling/main/documentation/readmeImages/104_uips.png" width="350"/>
 </p>
 
 
@@ -44,14 +44,14 @@ Uniform-in-phase-space datasets can be generated using the probability map using
 
 Generates clean meshes of block-cylindrical geometries. The code generates `blockMeshDict` which can be used to generate structured meshes with OpenFOAM. The interface to generate the `blockMeshDict` is designed to easily vary the geometry being meshed, thereby enabling geometry optimization tasks. A schematic of the block cylindrical architecture described by `.json` files in the repo is show below (left). The corresponding mesh generated is shown on the right.
 <p float="left">
-  <img src="/files/images/schematicBlockCyl.png" width="350"/>
-  <img src="/files/images/3dsparger.png" width="200"/>
+  <img src="https://raw.githubusercontent.com/NREL/BioReactorDesign/main/assets/schematic.png" width="350"/>
+  <img src="https://raw.githubusercontent.com/NREL/BioReactorDesign/main/assets/3dsparger.png" width="200"/>
 </p>
 
  
 Another interface is provides to generate STL files which may be used to generate boundary conditions in OpenFOAM. An example of such STL is shown below.
 <p float="left">
-  <img src="/files/images/spider.png" width="350"/> 
+  <img src="https://raw.githubusercontent.com/NREL/BioReactorDesign/main/assets/simpleOutput.png" width="350"/> 
 </p>
 
 
@@ -83,7 +83,7 @@ Below is a demonstration of the data that can be generated. On the left a low-re
 
 
 <p align="center">
-<img src="/images/demoDiverseSR.gif" width="562" height="187"/>
+<img src="https://raw.githubusercontent.com/NREL/diversity_SR/master/diversity_SR/Demo/DEMO.gif" width="562" height="187"/>
 </p>
 
 
@@ -107,7 +107,17 @@ Regularize genealogical adaptive multilevel splitting methods by using a Generat
 [Paper 1](https://arxiv.org/pdf/2312.17329.pdf)
 [Paper 2](https://arxiv.org/pdf/2312.17336.pdf)
 
-Bayesian inference of Li-ion battery models parameters made data-efficient thanks to Physics-informed neural networks. The code contains a demonstration of the implementation for single particle model, and provides an interface for the Bayesian inference.
+Bayesian inference of Li-ion battery models parameters made data-efficient thanks to Physics-informed neural networks. The code contains a demonstration of the implementation for single particle model, and provides an interface for using the surrogate within a Bayesian inference worflow.
+
+As example the training results using *no data* is shown for the single particle model (SPM) of an NMC Li-ion battery.
+
+<p float="left">
+  <img src="https://raw.githubusercontent.com/NREL/PINNSTRIPES/main/assets/corr_0.5_1.gif" width="175"/>
+  <img src="https://raw.githubusercontent.com/NREL/PINNSTRIPES/main/assets/cs2D_0.5_1.gif" width="265"/>
+  <img src="https://raw.githubusercontent.com/NREL/PINNSTRIPES/main/assets/phi_0.5_1.gif" width="240"/>
+</p>
+
+
 
 
 ## prettyPlot [![prettyPlot-CI](https://github.com/malihass/prettyPlot/actions/workflows/ci.yml/badge.svg)](https://github.com/malihass/prettyPlot/actions/workflows/ci.yml) [![prettyPlot-CI](https://badge.fury.io/py/prettyPlot.svg)](https://badge.fury.io/py/prettyPlot) 
