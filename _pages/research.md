@@ -87,7 +87,6 @@ Reacting flows modeling is a challenging computational problem that require effi
 4. H. Koo, M. Hassanaly, V. Raman, M. E. Mueller, K.-P. Geigle, "Large-eddy simulation of soot formation in a model gas turbine combustor" in **Journal of Engineering for Gas Turbines and Power**, 2017. [\[PDF\]](https://elib.dlr.de/107073/1/2016_koo_geigle_GTP_author_final.pdf)
 5. S. T. Chong, M. Hassanaly, H. Koo, M. E. Mueller, V. Raman, K.-P. Geigle, "Large eddy simulation of pressure and dilution-jet effects on soot formation in a model aircraft swirl combustor" in **Combustion and Flame**, 2018. [\[PDF\]](https://elib.dlr.de/119917/1/2018_chong_geigle_cf_author_final.pdf)
 6. N. Wimer, L. Esclapez, N. Brunhart-Lupo, M. Henry de Frahan, M. Rahimi, M. Hassanaly, J. Rood, S. Yellapantula, H. Sitaraman, B. Perry, M. Martin, O. Doronina, S. Appukuttan, M. Rieth, M. Day, "Visualizations of a methane/diesel RCCI engine using PeleC and PeleLMeX" in **75th Annual Meeting of the APS Division of Fluid Dynamics**, 2022. [\[Gallery of Fluid Motion Video\]](https://gfm.aps.org/meetings/dfd-2022/63236765199e4c2c0873f9f6) 🏆 **Milton Van Dyke Award** [\[PDF\]](https://journals.aps.org/prfluids/pdf/10.1103/PhysRevFluids.8.110511)
-7. J. Parra-Alvarez, M. Hassanaly, M. J. Rahimi, H. Sitaraman, "Computational Analysis of Different Sparging Systems and Their Influence in the Fluid-Dynamic Behavior of Bubble Column Reactors", 2023. [\[Code\]](https://github.com/NREL/BioReactorDesign)
 
 ## *Numerical solver*
 No matter how accurate are physics models, they intimately interact with numerical solvers which can introduce larger errors than the physics-modeling approach. For instance, numerical discretization may introduce dissipation that outweighs the effect of turbulence models. I have developed a solver that minimize the amount of numerical dissipation of variable density low-Mach solvers in OpenFoam. 
@@ -100,8 +99,8 @@ In turn, numerical solvers also depend on the computing architecture on which th
 
 ### Related work
 1. M. Hassanaly, H. Koo, C. F. Lietz, S. T. Chong, V. Raman, "A minimally-dissipative low-Mach number solver for complex reacting flows in OpenFOAM" in **Computer and Fluids**, 2018. [\[PDF\]](https://arxiv.org/pdf/1705.04777.pdf)
-2. [\[Documentation\]](https://amrex-combustion.github.io/PelePhysics/QSS.html) on common-subexpression precomputations, and symbolic chemical Jacobian.
-
+2. M. Hassanaly, N. T. Wimer, A. Felden, L. Esclapez, J. Ream, M. T. Henry de Frahan, J. Rood, M. Day, "Symbolic construction of the chemical Jacobian of quasi-steady state (QSS) chemistries for Exascale computing platforms" in **Combustion and Flame**, 2024. [\[PDF\]](https://arxiv.org/abs/2405.05974), [\[Code\]](https://github.com/AMReX-Combustion/PelePhysics)
+3. C. J. Balos, Marc Day, L. Esclapez, A. M. Felden, D. J. Gardner, M. Hassanaly, D. R. Reynolds, J. Rood, J. M. Sexton, N. T. Wimer, C. S. Woodward, "SUNDIALS Time Integrators for Exascale Applications with Many Independent ODE Systems" in **International Journal of High Performance Computing Applications**, 2024. [\[PDF\]](https://arxiv.org/pdf/2405.01713)
 
 <a id="uq"></a>
 <h2>Uncertainty quantification (UQ)</h2>
@@ -113,9 +112,9 @@ Inverse Bayesian parametric inference can allow objective system identification 
 </p>
 
 ### Related work:
-1. M. Hassanaly, P. J. Weddle, R. N. King, S. De, A. Doostan, C. R. Randall, E. J. Dufek, A. M. Colclasure, K. Smith, "PINN surrogate of Li-ion battery models for parameter inference. Part I: Implementation and multi-fidelity hierarchies for the single-particle model", in **Under Review**, 2024. [\[Paper\]](https://arxiv.org/pdf/2312.17329.pdf) [\[Code\]](https://github.com/NREL/PINNSTRIPES)
-2. M. Hassanaly, P. J. Weddle, R. N. King, S. De, A. Doostan, C. R. Randall, E. J. Dufek, A. M. Colclasure, K. Smith, "PINN surrogate of Li-ion battery models for parameter inference. Part II: Regularization and application of the pseudo-2D model", in **Under Review**, 2024. [\[Paper\]](https://arxiv.org/pdf/2312.17336.pdf)
-3. M. Hassanaly, P. J. Weddle, K. Smith, S. De, A. Doostan, R. N. King, "Physics-Informed Neural Network Modeling of Li-Ion Batteries", in **242nd ECS Meeting**, 2022. [\[Abstract\]](https://www.nrel.gov/docs/fy22osti/82015.pdf)
+1. M. Hassanaly, P. J. Weddle, R. N. King, S. De, A. Doostan, C. R. Randall, E. J. Dufek, A. M. Colclasure, K. Smith, "PINN surrogate of Li-ion battery models for parameter inference. Part I: Implementation and multi-fidelity hierarchies for the single-particle model", in **Journal of Energy Storage**, 2024. [\[Paper\]](https://arxiv.org/pdf/2312.17329.pdf) [\[Code\]](https://github.com/NREL/PINNSTRIPES)
+2. M. Hassanaly, P. J. Weddle, R. N. King, S. De, A. Doostan, C. R. Randall, E. J. Dufek, A. M. Colclasure, K. Smith, "PINN surrogate of Li-ion battery models for parameter inference. Part II: Regularization and application of the pseudo-2D model", in **Journal of Energy Storage**, 2024. [\[Paper\]](https://arxiv.org/pdf/2312.17336.pdf) [\[Code\]](https://github.com/NREL/PINNSTRIPES)
+3. M. Hassanaly, J. M. Parra-Alvarez, M. J. Rahimi, H. Sitaraman, "Bayesian calibration of bubble size dynamics applied to CO2 gas fermenters" in **Under Review**, 2024. [[\[PDF\]](https://arxiv.org/pdf/2404.19636), [[\[Code\]](https://github.com/NREL/BioReactorDesign)
 
  
 ## *Rare event probability estimation*
@@ -130,6 +129,11 @@ Efficiently estimating rare event probability requires artificially increasing t
 
 
 ## *Uncertainty propagation*
+Propagate uncertainty through physics-based models with a computationally efficient approach. Here the focus is on propagating the uncertainty of ML closure models through high-fidelity simulations with a sample-efficient approach.
 
-Coming Soon!
+### Related work:
+1. G. Pash, M. Hassanaly, S. Yellapantula, "A Priori Uncertainty Quantification of Reacting Turbulence Closure Models using Bayesian Neural Networks" in **Under Review**, 2024. [\[PDF\]](https://arxiv.org/pdf/2402.18729), [\[Code\]](https://github.com/NREL/MLUQ-PROP)
+2. G. Pash, M. Hassanaly, S. Yellapantula, "Equipping Neural Network Surrogates with Uncertainty for Propagation in Physical Systems" in **SIAM UQ**, 2024. [\[PDF\]](https://www.nrel.gov/docs/fy24osti/89061.pdf), [\[Code\]](https://github.com/NREL/MLUQ-PROP)
+
+
 
