@@ -51,4 +51,4 @@ I work on methods that can rapidly and automatically assess what vulnerabilities
 - Single-agent and multi-agent reinforcement learning
 - Anomaly detection
 
-<a href="/Research/#uq">More info</a>
+<a href="/Research/#adv">More info</a>
