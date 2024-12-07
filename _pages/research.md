@@ -132,8 +132,17 @@ Efficiently estimating rare event probability requires artificially increasing t
 Propagate uncertainty through physics-based models with a computationally efficient approach. Here the focus is on propagating the uncertainty of ML closure models through high-fidelity simulations with a sample-efficient approach.
 
 ### Related work:
-1. G. Pash, M. Hassanaly, S. Yellapantula, "A Priori Uncertainty Quantification of Reacting Turbulence Closure Models using Bayesian Neural Networks" in **Under Review**, 2024. [\[PDF\]](https://arxiv.org/pdf/2402.18729), [\[Code\]](https://github.com/NREL/MLUQ-PROP)
+1. G. Pash, M. Hassanaly, S. Yellapantula, "A Priori Uncertainty Quantification of Reacting Turbulence Closure Models using Bayesian Neural Networks" in **Engineering Applications of Artificial Intelligence**, 2024. [\[PDF\]](https://arxiv.org/pdf/2402.18729), [\[Code\]](https://github.com/NREL/MLUQ-PROP)
 2. G. Pash, M. Hassanaly, S. Yellapantula, "Equipping Neural Network Surrogates with Uncertainty for Propagation in Physical Systems" in **SIAM UQ**, 2024. [\[PDF\]](https://www.nrel.gov/docs/fy24osti/89061.pdf), [\[Code\]](https://github.com/NREL/MLUQ-PROP)
 
+<a id="adv"></a>
+## *Adversarial robustness*
+I develop reinforcement learning (RL) methods that play the role of malicious agents that fool defense algorithms to induce catastrophic outcomes. These RL agents can then inform further improvement of defense algorithms by continuously improving the defense. Effectively, the defense must adapt to evolving tasks which poses the question of catastrophic forgetting. I develop these methods in the context of cyber-security of the power grid, and I hope to deploy them on other applications in the future.
+
+### Related work:
+1. R. Prasad, M. Hassanaly, X. Zhang, A. Sahu, "Discovery of false data injection schemes on frequency controllers with reinforcement learning" in **IEEE Power & Energy Society General Meeting (PESGM)**, 2024.  [\[PDF\]](https://arxiv.org/pdf/2408.16958)
+2. P. Aslami, K. Chen, T. M. Hansen, M. Hassanaly, "Continual Adversarial Reinforcement Learning (CARL) of False Data Injection detection: forgetting and explainability" **Under Review**, 2025. [\[PDF\]](https://arxiv.org/pdf/2411.10367)
+3. K. Chen, T. Nguyen, M. Hassanaly, "Adversarial Multi-Agent Reinforcement Learning for Proactive False Data Injection Detection" **Under Review**, 2025. [\[PDF\]](https://arxiv.org/pdf/2411.12130)
+4. A. Sahu, T. Nguyen, K. Chen, X. Zhang, M. Hassanaly, "Detection of False Data Injection Attacks (FDIA) on Power Dynamical Systems With a State Prediction Method" **Under Review**, 2025. [\[PDF\]](https://arxiv.org/pdf/2409.04609)
 
 

@@ -43,3 +43,12 @@ I work on:
 - Uncertainty propagation
 
 <a href="/Research/#uq">More info</a>
+
+Adversarial robustness
+======
+Energy systems are typically subject to perturbations (for ex. fluctuation of load and production of renewable energy) that may lead to operating the system in untested settings. Such perturbations are often harmless but can also lead to catastrophic outcomes. At the same time, energy systems, like the power grid, keep evolving. Thus, pathways to catastrophic outcomes are also likely to change. A further complication is that some pathways to failure could be exploited by a capable malicious agent. 
+I work on methods that can rapidly and automatically assess what vulnerabilities exist and how to patch them. Specifically, I work on:
+- Single-agent and multi-agent reinforcement learning
+- Anomaly detection
+
+<a href="/Research/#uq">More info</a>
