@@ -136,7 +136,7 @@ Propagate uncertainty through physics-based models with a computationally effici
 2. G. Pash, M. Hassanaly, S. Yellapantula, "Equipping Neural Network Surrogates with Uncertainty for Propagation in Physical Systems" in **SIAM UQ**, 2024. [\[PDF\]](https://www.nrel.gov/docs/fy24osti/89061.pdf), [\[Code\]](https://github.com/NREL/MLUQ-PROP)
 
 <a id="adv"></a>
-## *Adversarial robustness*
+<h2>Adversarial robustness</h2>
 I develop reinforcement learning (RL) methods that play the role of malicious agents that fool defense algorithms to induce catastrophic outcomes. These RL agents can then inform further improvement of defense algorithms by continuously improving the defense. Effectively, the defense must adapt to evolving tasks which poses the question of catastrophic forgetting. I develop these methods in the context of cyber-security of the power grid, and I hope to deploy them on other applications in the future.
 
 <p align="center">
