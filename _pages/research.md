@@ -139,6 +139,10 @@ Propagate uncertainty through physics-based models with a computationally effici
 ## *Adversarial robustness*
 I develop reinforcement learning (RL) methods that play the role of malicious agents that fool defense algorithms to induce catastrophic outcomes. These RL agents can then inform further improvement of defense algorithms by continuously improving the defense. Effectively, the defense must adapt to evolving tasks which poses the question of catastrophic forgetting. I develop these methods in the context of cyber-security of the power grid, and I hope to deploy them on other applications in the future.
 
+<p align="center">
+<img src="/images/adv.png" width="750" height="250"/>
+</p>
+
 ### Related work:
 1. R. Prasad, M. Hassanaly, X. Zhang, A. Sahu, "Discovery of false data injection schemes on frequency controllers with reinforcement learning" in **IEEE Power & Energy Society General Meeting (PESGM)**, 2024.  [\[PDF\]](https://arxiv.org/pdf/2408.16958)
 2. P. Aslami, K. Chen, T. M. Hansen, M. Hassanaly, "Continual Adversarial Reinforcement Learning (CARL) of False Data Injection detection: forgetting and explainability" **Under Review**, 2025. [\[PDF\]](https://arxiv.org/pdf/2411.10367)
