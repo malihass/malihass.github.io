@@ -58,8 +58,7 @@ Another interface is provides to generate STL files which may be used to generat
 
 This code was primarily designed to optimize the design of spargers in bubble column reactors. However we can use it for any block cylindrical geometries which come up a lot more often than I initially thought!
 
-
-## Sup3r [![Pytests](https://github.com/NREL/sup3r/actions/workflows/pull_request_tests.yml/badge.svg)](https://github.com/NREL/sup3r/actions/workflows/pull_request_tests.yml)  [![Lint Code Base](https://github.com/NREL/sup3r/actions/workflows/linter.yml/badge.svg)](https://github.com/NREL/sup3r/actions/workflows/linter.yml)  ![](https://codecov.io/gh/nrel/sup3r/branch/main/graph/badge.svg)
+## Sup3r [![Pytests](https://github.com/NREL/sup3r/workflows/Pytests/badge.svg)](https://github.com/NREL/sup3r/actions/workflows/pull_request_tests.yml)  [![Lint Code Base](https://github.com/NREL/sup3r/actions/workflows/linter.yml/badge.svg)](https://github.com/NREL/sup3r/actions/workflows/linter.yml)  ![](https://codecov.io/gh/nrel/sup3r/branch/main/graph/badge.svg)
 
 [Code](https://github.com/NREL/sup3r)
 
