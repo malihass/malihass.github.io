@@ -41,6 +41,7 @@ Uniform-in-phase-space datasets can be generated using the probability map using
 
 
 [Code](https://github.com/NREL/BioReactorDesign)
+[Pypi](https://pypi.org/project/nrel-bird/)
 
 Generates clean meshes of block-cylindrical geometries. The code generates `blockMeshDict` which can be used to generate structured meshes with OpenFOAM. The interface to generate the `blockMeshDict` is designed to easily vary the geometry being meshed, thereby enabling geometry optimization tasks. A schematic of the block cylindrical architecture described by `.json` files in the repo is show below (left). The corresponding mesh generated is shown on the right.
 <p float="left">
