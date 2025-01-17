@@ -46,14 +46,14 @@ Uniform-in-phase-space datasets can be generated using the probability map using
 
 Generates clean meshes of block-cylindrical geometries. The code generates `blockMeshDict` which can be used to generate structured meshes with OpenFOAM. The interface to generate the `blockMeshDict` is designed to easily vary the geometry being meshed, thereby enabling geometry optimization tasks. A schematic of the block cylindrical architecture described by `.json` files in the repo is show below (left). The corresponding mesh generated is shown on the right.
 <p float="left">
-  <img src="https://raw.githubusercontent.com/NREL/BioReactorDesign/main/assets/schematic.png" width="350"/>
-  <img src="https://raw.githubusercontent.com/NREL/BioReactorDesign/main/assets/3dsparger.png" width="200"/>
+  <img src="https://raw.githubusercontent.com/NREL/BioReactorDesign/main/docs/assets/schematic.png" width="350"/>
+  <img src="https://raw.githubusercontent.com/NREL/BioReactorDesign/main/docs/assets/3dsparger.png" width="200"/>
 </p>
 
  
 Another interface is provides to generate STL files which may be used to generate boundary conditions in OpenFOAM. An example of such STL is shown below.
 <p float="left">
-  <img src="https://raw.githubusercontent.com/NREL/BioReactorDesign/main/assets/simpleOutput.png" width="350"/> 
+  <img src="https://raw.githubusercontent.com/NREL/BioReactorDesign/main/docs/assets/simpleOutput.png" width="350"/> 
 </p>
 
 
