@@ -148,5 +148,5 @@ I develop reinforcement learning (RL) methods that play the role of malicious ag
 2. P. Aslami, K. Chen, T. M. Hansen, M. Hassanaly, "Continual Adversarial Reinforcement Learning (CARL) of False Data Injection detection: forgetting and explainability" **IEEE PowerTech**, 2025. [\[PDF\]](https://arxiv.org/pdf/2411.10367)
 3. K. Chen, T. Nguyen, M. Hassanaly, "Adversarial Multi-Agent Reinforcement Learning for Proactive False Data Injection Detection" **Under Review**, 2025. [\[PDF\]](https://arxiv.org/pdf/2411.12130)
 4. A. Sahu, T. Nguyen, K. Chen, X. Zhang, M. Hassanaly, "Detection of False Data Injection Attacks (FDIA) on Power Dynamical Systems With a State Prediction Method" **IEEE Access**, 2024. [\[PDF\]](https://arxiv.org/pdf/2409.04609) 
-
+5. N. Do, T. Nguyen, M. Hassanaly, R. Alharbi, J. T. Seo, M. T. Thai, "Swift Hydra: Self-Reinforcing Generative Framework for Anomaly Detection with Multiple Mamba Models" **ICLR**, 2025. [\[PDF\]](https://arxiv.org/pdf/2503.06413?)
 
