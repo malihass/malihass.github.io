@@ -145,8 +145,8 @@ I develop reinforcement learning (RL) methods that play the role of malicious ag
 
 ### Related work:
 1. R. Prasad, M. Hassanaly, X. Zhang, A. Sahu, "Discovery of false data injection schemes on frequency controllers with reinforcement learning" in **IEEE Power & Energy Society General Meeting (PESGM)**, 2024.  [\[PDF\]](https://arxiv.org/pdf/2408.16958)
-2. P. Aslami, K. Chen, T. M. Hansen, M. Hassanaly, "Continual Adversarial Reinforcement Learning (CARL) of False Data Injection detection: forgetting and explainability" **Under Review**, 2025. [\[PDF\]](https://arxiv.org/pdf/2411.10367)
+2. P. Aslami, K. Chen, T. M. Hansen, M. Hassanaly, "Continual Adversarial Reinforcement Learning (CARL) of False Data Injection detection: forgetting and explainability" **IEEE PowerTech**, 2025. [\[PDF\]](https://arxiv.org/pdf/2411.10367)
 3. K. Chen, T. Nguyen, M. Hassanaly, "Adversarial Multi-Agent Reinforcement Learning for Proactive False Data Injection Detection" **Under Review**, 2025. [\[PDF\]](https://arxiv.org/pdf/2411.12130)
-4. A. Sahu, T. Nguyen, K. Chen, X. Zhang, M. Hassanaly, "Detection of False Data Injection Attacks (FDIA) on Power Dynamical Systems With a State Prediction Method" **Under Review**, 2025. [\[PDF\]](https://arxiv.org/pdf/2409.04609)
+4. A. Sahu, T. Nguyen, K. Chen, X. Zhang, M. Hassanaly, "Detection of False Data Injection Attacks (FDIA) on Power Dynamical Systems With a State Prediction Method" **IEEE Access**, 2024. [\[PDF\]](https://arxiv.org/pdf/2409.04609) 
 
 
