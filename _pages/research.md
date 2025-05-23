@@ -114,7 +114,7 @@ Inverse Bayesian parametric inference can allow objective system identification 
 ### Related work:
 1. M. Hassanaly, P. J. Weddle, R. N. King, S. De, A. Doostan, C. R. Randall, E. J. Dufek, A. M. Colclasure, K. Smith, "PINN surrogate of Li-ion battery models for parameter inference. Part I: Implementation and multi-fidelity hierarchies for the single-particle model", in **Journal of Energy Storage**, 2024. [\[Paper\]](https://arxiv.org/pdf/2312.17329.pdf) [\[Code\]](https://github.com/NREL/PINNSTRIPES)
 2. M. Hassanaly, P. J. Weddle, R. N. King, S. De, A. Doostan, C. R. Randall, E. J. Dufek, A. M. Colclasure, K. Smith, "PINN surrogate of Li-ion battery models for parameter inference. Part II: Regularization and application of the pseudo-2D model", in **Journal of Energy Storage**, 2024. [\[Paper\]](https://arxiv.org/pdf/2312.17336.pdf) [\[Code\]](https://github.com/NREL/PINNSTRIPES)
-3. M. Hassanaly, J. M. Parra-Alvarez, M. J. Rahimi, H. Sitaraman, "Bayesian calibration of bubble size dynamics applied to CO2 gas fermenters" in **Under Review**, 2024. [[\[PDF\]](https://arxiv.org/pdf/2404.19636), [[\[Code\]](https://github.com/NREL/BioReactorDesign)
+3. M. Hassanaly, J. M. Parra-Alvarez, M. J. Rahimi, H. Sitaraman, "Bayesian calibration of bubble size dynamics applied to CO2 gas fermenters" in **Chemical Engineering Research and Design**, 2025. [[\[PDF\]](https://arxiv.org/pdf/2404.19636), [[\[Code\]](https://github.com/NREL/BioReactorDesign)
 
  
 ## *Rare event probability estimation*
