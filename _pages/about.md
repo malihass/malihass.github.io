@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a researcher at National Renewable Energy Laboratory (NREL) and earned my Ph.D. from the University of Michigan in Aerospace Engineering. 
+I am a researcher at National Laboratory of the Rockies (NLR) and earned my Ph.D. from the University of Michigan in Aerospace Engineering. 
 
 My work revolves around <a href="/Research/#sciml">Scientific Machine Learning</a>, the simulation of <a href="/Research/#cfm">Complex fluid flows with High-Performance Computing</a>, <a href="/Research/#uq">Uncertainty Quantification</a> and <a href="/Research/#adv">Adversarial robustness</a>. I develop methods to improve the efficiency and reliability of wind turbines, batteries, deposition reactors, bio reactors, inverters, and efficient engines. 
 

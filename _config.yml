@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Malik Hassanaly"
 title_separator          : "-"
 name                     : &name "Malik Hassanaly"
-description              : &description "Researcher at National Renewable Energy Laboratory (NREL)"
+description              : &description "Researcher at National Laboratory of the Rockies (NLR)"
 url                      : https://malihass.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "malihass/malihass.github.io"
@@ -83,7 +83,7 @@ analytics:
 author:
   name             : "Malik Hassanaly"
   avatar           : "profile.png"
-  bio              : "Researcher at NREL, Scientific Machine Learning, Turbulent Combustion Modeling, Computational Fluid Dynamics, Uncertainty Quantification"
+  bio              : "Researcher at NLR, Scientific Machine Learning, Turbulent Combustion Modeling, Computational Fluid Dynamics, Uncertainty Quantification"
   location         : "Colorado"
   employer         :
   pubmed           : 
