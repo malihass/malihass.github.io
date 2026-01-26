@@ -38,12 +38,12 @@ Internally, some generative models directly learn the PDF that is being manipula
 </p>
 
 ### Related work:
-1. M. Hassanaly, A. Glaws, K. Stengel, R. N. King, "Adversarial sampling of unknown and high-dimensional conditional distributions" in **Journal of Computational Physics**, 2022. [\[PDF\]](https://arxiv.org/pdf/2111.05962.pdf), [\[Code\]](https://github.com/NREL/diversity_SR)
-2. M. Hassanaly, A. Glaws, R. N. King, "GANISP: a GAN-assisted Importance SPlitting Probability Estimator" in **AAAI-ADAM**, 2022. [\[PDF\]](https://arxiv.org/pdf/2112.15444.pdf), [\[Code\]](https://github.com/NREL/GANISP)
-3. M. Hassanaly, B. Perry, M. E. Mueller, S. Yellapantula, "Uniform-in-Phase-Space Data Selection with Iterative Normalizing Flows", **Data-Centric Engineering**, 2023. [\[PDF\]](https://arxiv.org/pdf/2112.15446), [\[Code\]](https://github.com/NREL/Phase-space-sampling)
+1. M. Hassanaly, A. Glaws, K. Stengel, R. N. King, "Adversarial sampling of unknown and high-dimensional conditional distributions" in **Journal of Computational Physics**, 2022. [\[PDF\]](https://arxiv.org/pdf/2111.05962.pdf), [\[Code\]](https://github.com/NatLabRockies/diversity_SR)
+2. M. Hassanaly, A. Glaws, R. N. King, "GANISP: a GAN-assisted Importance SPlitting Probability Estimator" in **AAAI-ADAM**, 2022. [\[PDF\]](https://arxiv.org/pdf/2112.15444.pdf), [\[Code\]](https://github.com/NatLabRockies/GANISP)
+3. M. Hassanaly, B. Perry, M. E. Mueller, S. Yellapantula, "Uniform-in-Phase-Space Data Selection with Iterative Normalizing Flows", **Data-Centric Engineering**, 2023. [\[PDF\]](https://arxiv.org/pdf/2112.15446), [\[Code\]](https://github.com/NatLabRockies/Phase-space-sampling)
 4. A. Rybchuk, M. Hassanaly, N. Hamilton, P. Doubrawa, M. J. Fulton, L. A. Martinez-Tossas, "Ensemble flow reconstruction in the atmospheric boundary layer from spatially limited measurements through latent diffusion models", **Physics of Fluids**, 2023. [\[PDF\]](https://pubs.aip.org/aip/pof/article/35/12/126604/2928913/Ensemble-flow-reconstruction-in-the-atmospheric), [\[Code\]](https://github.com/rybchuk/latent-diffusion-3d-atmospheric-boundary-layer)
 5. A. Rybchuk, L. A Martínez-Tossas, N. Hamilton, P. Doubrawa, G. Vijayakumar, M. Hassanaly, M. B. Kuhn and D. S. Zalkind, "A baseline for ensemble-based, time-resolved inflow reconstruction for a single turbine using large-eddy simulations and latent diffusion models", **Wake Conference**, 2023. [\[PDF\]](https://iopscience.iop.org/article/10.1088/1742-6596/2505/1/012018/pdf)
-6. H.-W. Pang, M. Hassanaly, B. Perry, M. Day, W. H. Green, "Iterative Workflow for Quantification and Minimization of Reduced Chemistry-Induced Uncertainties in Reacting Flow Simulation", **WIPP 39th International Symposium on Combustion**, 2022. [\[Poster\]](https://www.nrel.gov/docs/fy22osti/83520.pdf)
+6. H.-W. Pang, M. Hassanaly, B. Perry, M. Day, W. H. Green, "Iterative Workflow for Quantification and Minimization of Reduced Chemistry-Induced Uncertainties in Reacting Flow Simulation", **WIPP 39th International Symposium on Combustion**, 2022. [\[Poster\]](https://www.nlr.gov/docs/fy22osti/83520.pdf)
 7. S. Barwey, M. Hassanaly, V. Raman, A. Steinberg, "Using Machine Learning to Construct Velocity Fields from OH-PLIF Images", in **Combustion Science and Technology**, 2019. [\[PDF\]](https://arxiv.org/pdf/1909.13669.pdf)
 
 ## *Information extraction*
@@ -114,9 +114,9 @@ Inverse Bayesian parametric inference can allow objective system identification 
 </p>
 
 ### Related work:
-1. M. Hassanaly, P. J. Weddle, R. N. King, S. De, A. Doostan, C. R. Randall, E. J. Dufek, A. M. Colclasure, K. Smith, "PINN surrogate of Li-ion battery models for parameter inference. Part I: Implementation and multi-fidelity hierarchies for the single-particle model", in **Journal of Energy Storage**, 2024. [\[PDF\]](https://arxiv.org/pdf/2312.17329.pdf) [\[Code\]](https://github.com/NREL/PINNSTRIPES)
-2. M. Hassanaly, P. J. Weddle, R. N. King, S. De, A. Doostan, C. R. Randall, E. J. Dufek, A. M. Colclasure, K. Smith, "PINN surrogate of Li-ion battery models for parameter inference. Part II: Regularization and application of the pseudo-2D model", in **Journal of Energy Storage**, 2024. [\[PDF\]](https://arxiv.org/pdf/2312.17336.pdf) [\[Code\]](https://github.com/NREL/PINNSTRIPES)
-3. M. Hassanaly, J. M. Parra-Alvarez, M. J. Rahimi, H. Sitaraman, "Bayesian calibration of bubble size dynamics applied to CO2 gas fermenters" in **Chemical Engineering Research and Design**, 2025. [\[PDF\]](https://arxiv.org/pdf/2404.19636), [\[Code\]](https://github.com/NREL/BioReactorDesign)
+1. M. Hassanaly, P. J. Weddle, R. N. King, S. De, A. Doostan, C. R. Randall, E. J. Dufek, A. M. Colclasure, K. Smith, "PINN surrogate of Li-ion battery models for parameter inference. Part I: Implementation and multi-fidelity hierarchies for the single-particle model", in **Journal of Energy Storage**, 2024. [\[PDF\]](https://arxiv.org/pdf/2312.17329.pdf) [\[Code\]](https://github.com/NatLabRockies/PINNSTRIPES)
+2. M. Hassanaly, P. J. Weddle, R. N. King, S. De, A. Doostan, C. R. Randall, E. J. Dufek, A. M. Colclasure, K. Smith, "PINN surrogate of Li-ion battery models for parameter inference. Part II: Regularization and application of the pseudo-2D model", in **Journal of Energy Storage**, 2024. [\[PDF\]](https://arxiv.org/pdf/2312.17336.pdf) [\[Code\]](https://github.com/NatLabRockies/PINNSTRIPES)
+3. M. Hassanaly, J. M. Parra-Alvarez, M. J. Rahimi, H. Sitaraman, "Bayesian calibration of bubble size dynamics applied to CO2 gas fermenters" in **Chemical Engineering Research and Design**, 2025. [\[PDF\]](https://arxiv.org/pdf/2404.19636), [\[Code\]](https://github.com/NatLabRockies/BioReactorDesign)
 
  
 ## *Rare event probability estimation*
@@ -127,15 +127,15 @@ Efficiently estimating rare event probability requires artificially increasing t
 
 ### Related work:
 1. M. Hassanaly, V. Raman, "A self-similarity principle for the computation of rare event probability" in **Journal of Physics A: Mathematical and Theoretical**, 2019. [\[PDF\]](https://arxiv.org/pdf/1911.01222.pdf)
-2. M. Hassanaly, A. Glaws, R. N. King, "GANISP: a GAN-assisted Importance SPlitting Probability Estimator" in **AAAI-ADAM**, 2022. [\[PDF\]](https://arxiv.org/pdf/2112.15444.pdf), [\[Code\]](https://github.com/NREL/GANISP)
+2. M. Hassanaly, A. Glaws, R. N. King, "GANISP: a GAN-assisted Importance SPlitting Probability Estimator" in **AAAI-ADAM**, 2022. [\[PDF\]](https://arxiv.org/pdf/2112.15444.pdf), [\[Code\]](https://github.com/NatLabRockies/GANISP)
 
 
 ## *Uncertainty propagation*
 Propagate uncertainty through physics-based models with a computationally efficient approach. Here the focus is on propagating the uncertainty of ML closure models through high-fidelity simulations with a sample-efficient approach.
 
 ### Related work:
-1. G. Pash, M. Hassanaly, S. Yellapantula, "A Priori Uncertainty Quantification of Reacting Turbulence Closure Models using Bayesian Neural Networks" in **Engineering Applications of Artificial Intelligence**, 2024. [\[PDF\]](https://arxiv.org/pdf/2402.18729), [\[Code\]](https://github.com/NREL/MLUQ-PROP)
-2. G. Pash, M. Hassanaly, S. Yellapantula, "Equipping Neural Network Surrogates with Uncertainty for Propagation in Physical Systems" in **SIAM UQ**, 2024. [\[PDF\]](https://www.nrel.gov/docs/fy24osti/89061.pdf), [\[Code\]](https://github.com/NREL/MLUQ-PROP)
+1. G. Pash, M. Hassanaly, S. Yellapantula, "A Priori Uncertainty Quantification of Reacting Turbulence Closure Models using Bayesian Neural Networks" in **Engineering Applications of Artificial Intelligence**, 2024. [\[PDF\]](https://arxiv.org/pdf/2402.18729), [\[Code\]](https://github.com/NatLabRockies/MLUQ-PROP)
+2. G. Pash, M. Hassanaly, S. Yellapantula, "Equipping Neural Network Surrogates with Uncertainty for Propagation in Physical Systems" in **SIAM UQ**, 2024. [\[PDF\]](https://www.nlr.gov/docs/fy24osti/89061.pdf), [\[Code\]](https://github.com/NatLabRockies/MLUQ-PROP)
 
 <a id="adv"></a>
 <h2>Adversarial robustness</h2>
