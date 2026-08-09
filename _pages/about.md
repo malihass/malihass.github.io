@@ -1,15 +1,46 @@
 ---
 permalink: /
 title: "Bio"
-excerpt: "About me"
+excerpt: "Uncertainty quantification, Bayesian and simulation-based inference, and ML surrogates for large-scale physics simulation."
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-I am a researcher at National Laboratory of the Rockies (NLR) and earned my Ph.D. from the University of Michigan in Aerospace Engineering. 
+I am currently a researcher in AI & physics-based modeling at the National Laboratory of the Rockies (NLR). I earned my Ph.D. from the University of Michigan in Aerospace Engineering.
 
+**My work revolves around making physics-based simulations able to inform decision-making**. I contribute primarily to research in simulation-based inference, inverse methods, uncertainty propagation and scientific machine learning. 
+
+Occasionally, I also develop physics-based models using computational fluid dynamics (CFD) for reacting and multiphase flows.
+
+I work on different applications: Li-ion batteries, atmospheric flows, power-system security, bioreactors, gas turbines and engines. 
+
+Most of my methods are available as open-source software — and I try to make sure all my publications are freely accessible. If any paper of mine is not accessible to you, please shoot me an email!
+
+## Start here
+
+- **[Research](/research/)** — what I work on, with cool figures
+- **[Software](/software/)** — tools you can install and run today
+- **[Publications](/publications/)** — 40+ papers, open access wherever possible
+- **CV** — [résumé (2 pages)](/files/pdf/resumeMalikHassanaly.pdf) ·
+  [full academic CV](/files/pdf/cvMalikHassanaly.pdf)
+
+## Get in touch
+
+I'm always glad to talk about uncertainty quantification, CFD, scientific machine learning or an
+interesting research challenge — including about open roles. Reach me a
+[malik.hassanaly@gmail.com](mailto:malik.hassanaly@gmail.com).
+
+
+## In the news
+
+- *[Making the Uncertain (More) Certain](https://www.nlr.gov/news/detail/program/2023/making-the-uncertain-more-certain-how-malik-hassanaly-approaches-the-invitation-to-wonder), NLR, 2023.*
+- *[AI improves efficiency of battery diagnostics](https://www.nlr.gov/news/detail/program/2025/artificial-intelligence-models-improve-efficiency-of-battery-diagnostics), NLR, 2025*
+- *[Podcast discussing my work on battery health diagnostics](https://open.spotify.com/episode/2OSiyCoA4vSXujw24UZQL2), Peaks to power podcast (skip to 6:20!), 2025*
+
+
+<!-- 
 My work revolves around <a href="/Research/#sciml">Scientific Machine Learning</a>, the simulation of <a href="/Research/#cfm">Complex fluid flows with High-Performance Computing</a>, <a href="/Research/#uq">Uncertainty Quantification</a> and <a href="/Research/#adv">Adversarial robustness</a>. I develop methods to improve the efficiency and reliability of wind turbines, batteries, deposition reactors, bio reactors, inverters, and efficient engines. 
 
 Scientific Machine Learning (SciML)
@@ -52,3 +83,5 @@ I work on methods that can rapidly and automatically assess what vulnerabilities
 - Anomaly detection
 
 <a href="/Research/#adv">More info</a>
+
+-->
